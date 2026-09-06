@@ -1,0 +1,797 @@
+{
+  "generated_at": "2026-09-05T19:11:19",
+  "n_games_total": 408,
+  "n_games_played": 366,
+  "n_games_settled": 294,
+  "feature_columns": [
+    "genre__Adventure",
+    "genre__Arcade",
+    "genre__Card & Board Game",
+    "genre__Fighting",
+    "genre__Hack and slash/Beat 'em up",
+    "genre__Indie",
+    "genre__Music",
+    "genre__Platform",
+    "genre__Puzzle",
+    "genre__Racing",
+    "genre__Real Time Strategy (RTS)",
+    "genre__Role-playing (RPG)",
+    "genre__Shooter",
+    "genre__Simulator",
+    "genre__Sport",
+    "genre__Strategy",
+    "genre__Tactical",
+    "genre__Turn-based strategy (TBS)",
+    "theme__4X (explore, expand, exploit, and exterminate)",
+    "theme__Action",
+    "theme__Business",
+    "theme__Comedy",
+    "theme__Drama",
+    "theme__Fantasy",
+    "theme__Historical",
+    "theme__Horror",
+    "theme__Kids",
+    "theme__Mystery",
+    "theme__Non-fiction",
+    "theme__Open world",
+    "theme__Party",
+    "theme__Sandbox",
+    "theme__Science fiction",
+    "theme__Stealth",
+    "theme__Survival",
+    "theme__Thriller",
+    "theme__Warfare",
+    "developer__Atlus",
+    "developer__CD Projekt RED",
+    "developer__EA Romania",
+    "developer__EA Vancouver",
+    "developer__FromSoftware",
+    "developer__Intelligent Systems",
+    "developer__Konami",
+    "developer__Nintendo",
+    "developer__Nintendo Entertainment Analysis & Development",
+    "developer__P Studio",
+    "developer__Square Enix Business Division 3",
+    "developer__Ubisoft Montreal",
+    "developer__Valve",
+    "developer__Visual Concepts",
+    "publisher__2K",
+    "publisher__2K Games",
+    "publisher__2K Sports",
+    "publisher__505 Games",
+    "publisher__Activision",
+    "publisher__Atlus",
+    "publisher__Atlus USA",
+    "publisher__Bandai Namco Entertainment",
+    "publisher__Bethesda Softworks",
+    "publisher__Capcom",
+    "publisher__Deep Silver",
+    "publisher__EA Sports",
+    "publisher__Electronic Arts",
+    "publisher__Feral Interactive",
+    "publisher__Gradiente",
+    "publisher__Konami",
+    "publisher__Nintendo",
+    "publisher__Paradox Interactive",
+    "publisher__Playtronic",
+    "publisher__Rockstar Games",
+    "publisher__Sega",
+    "publisher__Sony Computer Entertainment",
+    "publisher__Sony Interactive Entertainment",
+    "publisher__Square",
+    "publisher__Square Enix",
+    "publisher__Take-Two Interactive",
+    "publisher__Ubisoft Entertainment",
+    "publisher__Valve",
+    "publisher__WB Games",
+    "publisher__iQue",
+    "genre_affinity",
+    "theme_affinity",
+    "developer_affinity",
+    "publisher_affinity",
+    "franchise_affinity",
+    "aggregated_rating",
+    "aggregated_rating_count",
+    "release_year"
+  ],
+  "targets": {
+    "rating": {
+      "n_eligible": 292,
+      "candidates": {
+        "RandomForest": {
+          "cv_metrics": {
+            "mae": 1.0606139377119952,
+            "rmse": 1.3864830163271626,
+            "r2": 0.26437033221619666
+          }
+        },
+        "XGBoost": {
+          "cv_metrics": {
+            "mae": 1.0794069978729868,
+            "rmse": 1.3883991326415681,
+            "r2": 0.25723203497995717
+          }
+        },
+        "CatBoost": {
+          "cv_metrics": {
+            "mae": 1.0448382345060296,
+            "rmse": 1.3590555156945014,
+            "r2": 0.2903199821113901
+          }
+        },
+        "LightGBM": {
+          "cv_metrics": {
+            "mae": 1.2133202577549975,
+            "rmse": 1.5170770551369501,
+            "r2": 0.11302316264951628
+          }
+        }
+      },
+      "best_candidate": "CatBoost",
+      "holdout_metrics": {
+        "mae": 1.211825358690989,
+        "rmse": 1.582348340211012,
+        "r2": 0.03564735062355595
+      },
+      "model_path": "data\\models\\rating_model.joblib",
+      "example_explanations": [
+        {
+          "igdb_id": "115289",
+          "title": "Hollow Knight: Silksong",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": 0.5705127544871167
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": 0.2530107758753336
+            },
+            {
+              "feature": "theme__Fantasy",
+              "contribution": 0.18741135510919604
+            },
+            {
+              "feature": "genre__Indie",
+              "contribution": 0.16061193780536165
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.14293046006444296
+            }
+          ]
+        },
+        {
+          "igdb_id": "234740",
+          "title": "Nocturnal",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.41108246353564115
+            },
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.25515913603065143
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.15178002942850508
+            },
+            {
+              "feature": "theme__Fantasy",
+              "contribution": 0.14982278677501634
+            },
+            {
+              "feature": "release_year",
+              "contribution": -0.12542558980571816
+            }
+          ]
+        },
+        {
+          "igdb_id": "378229",
+          "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.3655768895092643
+            },
+            {
+              "feature": "theme__Fantasy",
+              "contribution": 0.26048952712359597
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.19869054200004874
+            },
+            {
+              "feature": "genre__Turn-based strategy (TBS)",
+              "contribution": 0.13298567656520827
+            },
+            {
+              "feature": "genre__Indie",
+              "contribution": 0.13056924745019544
+            }
+          ]
+        },
+        {
+          "igdb_id": "136045",
+          "title": "5D Chess With Multiverse Time Travel",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.26724423972784817
+            },
+            {
+              "feature": "genre__Puzzle",
+              "contribution": -0.23923000771564745
+            },
+            {
+              "feature": "genre__Turn-based strategy (TBS)",
+              "contribution": -0.21902755908374927
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.18764863424814046
+            },
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.15084987902658928
+            }
+          ]
+        },
+        {
+          "igdb_id": "361027",
+          "title": "Gamble With Your Friends",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.3506962142995049
+            },
+            {
+              "feature": "release_year",
+              "contribution": -0.336202813344791
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.3223328717426402
+            },
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.23978334398993023
+            },
+            {
+              "feature": "genre__Indie",
+              "contribution": 0.14252036289043962
+            }
+          ]
+        }
+      ]
+    },
+    "completion": {
+      "n_eligible": 294,
+      "candidates": {
+        "RandomForest": {
+          "cv_metrics": {
+            "f1": 0.7709431726030814,
+            "roc_auc": 0.8578181818181818
+          }
+        },
+        "XGBoost": {
+          "cv_metrics": {
+            "f1": 0.7144966286910021,
+            "roc_auc": 0.8007272727272727
+          }
+        },
+        "CatBoost": {
+          "cv_metrics": {
+            "f1": 0.7642572489988904,
+            "roc_auc": 0.8578181818181818
+          }
+        },
+        "LightGBM": {
+          "cv_metrics": {
+            "f1": 0.7034853107736403,
+            "roc_auc": 0.7970909090909092
+          }
+        }
+      },
+      "best_candidate": "RandomForest",
+      "holdout_metrics": {
+        "f1": 0.5714285714285714,
+        "roc_auc": 0.78125
+      },
+      "model_path": "data\\models\\completion_model.joblib",
+      "example_explanations": [
+        {
+          "igdb_id": "115289",
+          "title": "Hollow Knight: Silksong",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.11764225394262585
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.06347251356601855
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0634276823378108
+            },
+            {
+              "feature": "publisher_affinity",
+              "contribution": 0.06004221718626354
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": 0.05942049052321763
+            }
+          ]
+        },
+        {
+          "igdb_id": "234740",
+          "title": "Nocturnal",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.11764225394262585
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.06347251356601855
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0634276823378108
+            },
+            {
+              "feature": "publisher_affinity",
+              "contribution": 0.06004221718626354
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": 0.05942049052321763
+            }
+          ]
+        },
+        {
+          "igdb_id": "378229",
+          "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.11764225394262585
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.06347251356601855
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0634276823378108
+            },
+            {
+              "feature": "publisher_affinity",
+              "contribution": 0.06004221718626354
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": 0.05942049052321763
+            }
+          ]
+        },
+        {
+          "igdb_id": "136045",
+          "title": "5D Chess With Multiverse Time Travel",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.11764225394262585
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.06347251356601855
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0634276823378108
+            },
+            {
+              "feature": "publisher_affinity",
+              "contribution": 0.06004221718626354
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": 0.05942049052321763
+            }
+          ]
+        },
+        {
+          "igdb_id": "361027",
+          "title": "Gamble With Your Friends",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.11764225394262585
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.06347251356601855
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0634276823378108
+            },
+            {
+              "feature": "publisher_affinity",
+              "contribution": 0.06004221718626354
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": 0.05942049052321763
+            }
+          ]
+        }
+      ]
+    },
+    "replay": {
+      "n_eligible": 294,
+      "candidates": {
+        "RandomForest": {
+          "cv_metrics": {
+            "f1": 0.0,
+            "roc_auc": 0.7766666666666666
+          }
+        },
+        "XGBoost": {
+          "cv_metrics": {
+            "f1": 0.0,
+            "roc_auc": 0.6977777777777778
+          }
+        },
+        "CatBoost": {
+          "cv_metrics": {
+            "f1": 0.0,
+            "roc_auc": 0.7355555555555556
+          }
+        },
+        "LightGBM": {
+          "cv_metrics": {
+            "f1": 0.13333333333333333,
+            "roc_auc": 0.7133333333333333
+          }
+        }
+      },
+      "best_candidate": "RandomForest",
+      "holdout_metrics": {
+        "f1": 0.0,
+        "roc_auc": 0.7172619047619048
+      },
+      "model_path": "data\\models\\replay_model.joblib",
+      "example_explanations": [
+        {
+          "igdb_id": "115289",
+          "title": "Hollow Knight: Silksong",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": 0.13907670383165754
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.11358194096845999
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": 0.10713049381197061
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.07790250159524958
+            },
+            {
+              "feature": "release_year",
+              "contribution": 0.061347525162989074
+            }
+          ]
+        },
+        {
+          "igdb_id": "234740",
+          "title": "Nocturnal",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": 0.13907670383165754
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.11358194096845999
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": 0.10713049381197061
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.07790250159524958
+            },
+            {
+              "feature": "release_year",
+              "contribution": 0.061347525162989074
+            }
+          ]
+        },
+        {
+          "igdb_id": "378229",
+          "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": 0.13907670383165754
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.11358194096845999
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": 0.10713049381197061
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.07790250159524958
+            },
+            {
+              "feature": "release_year",
+              "contribution": 0.061347525162989074
+            }
+          ]
+        },
+        {
+          "igdb_id": "136045",
+          "title": "5D Chess With Multiverse Time Travel",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": 0.13907670383165754
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.11358194096845999
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": 0.10713049381197061
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.07790250159524958
+            },
+            {
+              "feature": "release_year",
+              "contribution": 0.061347525162989074
+            }
+          ]
+        },
+        {
+          "igdb_id": "361027",
+          "title": "Gamble With Your Friends",
+          "method": "global_feature_importance",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": 0.13907670383165754
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": 0.11358194096845999
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": 0.10713049381197061
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.07790250159524958
+            },
+            {
+              "feature": "release_year",
+              "contribution": 0.061347525162989074
+            }
+          ]
+        }
+      ]
+    },
+    "engagement": {
+      "n_eligible": 294,
+      "candidates": {
+        "RandomForest": {
+          "cv_metrics": {
+            "mae": 0.08211717098616311,
+            "rmse": 0.10591814131347325,
+            "r2": 0.2096084884614296
+          }
+        },
+        "XGBoost": {
+          "cv_metrics": {
+            "mae": 0.08243608811595178,
+            "rmse": 0.10719602800556749,
+            "r2": 0.18523657462804935
+          }
+        },
+        "CatBoost": {
+          "cv_metrics": {
+            "mae": 0.08137282994437564,
+            "rmse": 0.1056220866331464,
+            "r2": 0.21424853430053203
+          }
+        },
+        "LightGBM": {
+          "cv_metrics": {
+            "mae": 0.0892028081098461,
+            "rmse": 0.11819699710841833,
+            "r2": -0.009810321882789252
+          }
+        }
+      },
+      "best_candidate": "CatBoost",
+      "holdout_metrics": {
+        "mae": 0.09759247219826202,
+        "rmse": 0.12727939599567273,
+        "r2": 0.00527266408145588
+      },
+      "model_path": "data\\models\\engagement_model.joblib",
+      "example_explanations": [
+        {
+          "igdb_id": "115289",
+          "title": "Hollow Knight: Silksong",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": 0.037192078984727935
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": 0.03502669702337507
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.01728855353055573
+            },
+            {
+              "feature": "theme__Fantasy",
+              "contribution": 0.013761968760187452
+            },
+            {
+              "feature": "release_year",
+              "contribution": 0.010814810319672859
+            }
+          ]
+        },
+        {
+          "igdb_id": "234740",
+          "title": "Nocturnal",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.028613412109198523
+            },
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.023989767298111985
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.02354685992485471
+            },
+            {
+              "feature": "release_year",
+              "contribution": -0.018313912174650178
+            },
+            {
+              "feature": "theme_affinity",
+              "contribution": -0.01605859476767579
+            }
+          ]
+        },
+        {
+          "igdb_id": "378229",
+          "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.05371511794746074
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.032385430511196356
+            },
+            {
+              "feature": "theme__Fantasy",
+              "contribution": 0.01570424372964366
+            },
+            {
+              "feature": "release_year",
+              "contribution": -0.014280802190964257
+            },
+            {
+              "feature": "genre__Strategy",
+              "contribution": -0.011988988731215145
+            }
+          ]
+        },
+        {
+          "igdb_id": "136045",
+          "title": "5D Chess With Multiverse Time Travel",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "genre__Puzzle",
+              "contribution": -0.03574644453049302
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.029371323414772606
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.029335563655876914
+            },
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.013548222841411418
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": -0.012962609935276396
+            }
+          ]
+        },
+        {
+          "igdb_id": "361027",
+          "title": "Gamble With Your Friends",
+          "method": "shap",
+          "top_factors": [
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.025050598656728366
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.024624046016179676
+            },
+            {
+              "feature": "aggregated_rating",
+              "contribution": -0.017712338579253434
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": -0.01608754109654004
+            },
+            {
+              "feature": "release_year",
+              "contribution": -0.009928286529786686
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
