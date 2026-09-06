@@ -70,12 +70,12 @@ gaming-library-intelligence/
 ├── data/                 raw / enriched / processed / features / models
 ├── src/
 │   ├── ingestion/        Sprint 1 (implemented)
-│   ├── enrichment/       Sprint 2 (IGDB metadata) — not yet implemented
-│   ├── feature_engineering/  Sprint 3 — not yet implemented
-│   ├── analytics/        Sprint 4 — not yet implemented
-│   ├── ml/               Sprint 5 — not yet implemented
-│   ├── recommendation/   Sprint 6 — not yet implemented
-│   ├── visualization/    Sprint 7 (Streamlit) — not yet implemented
+│   ├── enrichment/       Sprint 2 (IGDB metadata) — implemented
+│   ├── feature_engineering/  Sprint 3 — implemented
+│   ├── analytics/        Sprint 4 — implemented
+│   ├── ml/               Sprint 5 — implemented
+│   ├── recommendation/   Sprint 6 — implemented
+│   ├── visualization/    Sprint 7 (Streamlit) — implemented
 │   ├── storage/          DB connection + schema (implemented)
 │   └── utils/
 ├── tests/
@@ -84,4 +84,3 @@ gaming-library-intelligence/
 ├── scripts/
 └── streamlit_app/
 ```
-"# game-library-intelligence" 
