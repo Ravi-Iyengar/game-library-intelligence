@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-11T12:05:22",
-  "n_games_total": 408,
-  "n_games_played": 366,
-  "n_games_settled": 294,
+  "generated_at": "2026-09-13T11:46:47",
+  "n_games_total": 471,
+  "n_games_played": 373,
+  "n_games_settled": 299,
   "feature_columns": [
     "genre__Adventure",
     "genre__Arcade",
@@ -42,10 +42,14 @@
     "theme__Thriller",
     "theme__Warfare",
     "developer__Atlus",
+    "developer__Blizzard Entertainment",
     "developer__CD Projekt RED",
+    "developer__Capcom",
     "developer__EA Romania",
     "developer__EA Vancouver",
+    "developer__Firaxis Games",
     "developer__FromSoftware",
+    "developer__Insomniac Games",
     "developer__Intelligent Systems",
     "developer__Konami",
     "developer__Nintendo",
@@ -64,6 +68,7 @@
     "publisher__Atlus USA",
     "publisher__Bandai Namco Entertainment",
     "publisher__Bethesda Softworks",
+    "publisher__Blizzard Entertainment",
     "publisher__Capcom",
     "publisher__Deep Silver",
     "publisher__EA Sports",
@@ -96,42 +101,42 @@
   ],
   "targets": {
     "rating": {
-      "n_eligible": 292,
+      "n_eligible": 293,
       "candidates": {
         "RandomForest": {
           "cv_metrics": {
-            "mae": 1.0606139377119952,
-            "rmse": 1.3864830163271626,
-            "r2": 0.26437033221619666
+            "mae": 1.074254394079556,
+            "rmse": 1.3631381694431746,
+            "r2": 0.26455180977517906
           }
         },
         "XGBoost": {
           "cv_metrics": {
-            "mae": 1.0794069978729868,
-            "rmse": 1.3883991326415681,
-            "r2": 0.25723203497995717
+            "mae": 1.1127920257504837,
+            "rmse": 1.417059709961242,
+            "r2": 0.20230020405353547
           }
         },
         "CatBoost": {
           "cv_metrics": {
-            "mae": 1.0448382345060296,
-            "rmse": 1.3590555156945014,
-            "r2": 0.2903199821113901
+            "mae": 1.080091261953229,
+            "rmse": 1.3764419815702946,
+            "r2": 0.25525445561743443
           }
         },
         "LightGBM": {
           "cv_metrics": {
-            "mae": 1.2133202577549975,
-            "rmse": 1.5170770551369501,
-            "r2": 0.11302316264951628
+            "mae": 1.2368749928517966,
+            "rmse": 1.5053303622709007,
+            "r2": 0.09197749931213126
           }
         }
       },
-      "best_candidate": "CatBoost",
+      "best_candidate": "RandomForest",
       "holdout_metrics": {
-        "mae": 1.211825358690989,
-        "rmse": 1.582348340211012,
-        "r2": 0.03564735062355595
+        "mae": 1.2038983050847458,
+        "rmse": 1.5727534720967769,
+        "r2": 0.06509884063216298
       },
       "model_path": "data\\models\\rating_model.joblib",
       "example_explanations": [
@@ -142,23 +147,23 @@
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": 0.5705127544871167
+              "contribution": 0.7655405041839396
             },
             {
               "feature": "developer_affinity",
-              "contribution": 0.2530107758753336
+              "contribution": 0.26052834104641726
             },
             {
-              "feature": "theme__Fantasy",
-              "contribution": 0.18741135510919604
+              "feature": "aggregated_rating_count",
+              "contribution": -0.10271779304564195
             },
             {
-              "feature": "genre__Indie",
-              "contribution": 0.16061193780536165
+              "feature": "genre__Adventure",
+              "contribution": 0.0689187425772434
             },
             {
               "feature": "genre_affinity",
-              "contribution": -0.14293046006444296
+              "contribution": -0.0680716666828099
             }
           ]
         },
@@ -169,23 +174,23 @@
           "top_factors": [
             {
               "feature": "aggregated_rating_count",
-              "contribution": -0.41108246353564115
+              "contribution": -0.3532040617663161
             },
             {
               "feature": "aggregated_rating",
-              "contribution": -0.25515913603065143
-            },
-            {
-              "feature": "genre_affinity",
-              "contribution": -0.15178002942850508
-            },
-            {
-              "feature": "theme__Fantasy",
-              "contribution": 0.14982278677501634
+              "contribution": -0.2719049557845396
             },
             {
               "feature": "release_year",
-              "contribution": -0.12542558980571816
+              "contribution": -0.14351579200140996
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.1089489503960873
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": -0.06489940233787217
             }
           ]
         },
@@ -196,23 +201,23 @@
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": -0.3655768895092643
+              "contribution": -0.40236426921103247
             },
             {
-              "feature": "theme__Fantasy",
-              "contribution": 0.26048952712359597
+              "feature": "release_year",
+              "contribution": -0.24384916805143103
             },
             {
               "feature": "aggregated_rating_count",
-              "contribution": -0.19869054200004874
+              "contribution": -0.12437736661447049
             },
             {
-              "feature": "genre__Turn-based strategy (TBS)",
-              "contribution": 0.13298567656520827
+              "feature": "developer_affinity",
+              "contribution": -0.1161094961004081
             },
             {
-              "feature": "genre__Indie",
-              "contribution": 0.13056924745019544
+              "feature": "genre_affinity",
+              "contribution": 0.1127771428991668
             }
           ]
         },
@@ -222,24 +227,24 @@
           "method": "shap",
           "top_factors": [
             {
-              "feature": "genre_affinity",
-              "contribution": -0.26724423972784817
-            },
-            {
-              "feature": "genre__Puzzle",
-              "contribution": -0.23923000771564745
-            },
-            {
-              "feature": "genre__Turn-based strategy (TBS)",
-              "contribution": -0.21902755908374927
-            },
-            {
               "feature": "aggregated_rating_count",
-              "contribution": -0.18764863424814046
+              "contribution": -0.25895020396565954
             },
             {
               "feature": "aggregated_rating",
-              "contribution": -0.15084987902658928
+              "contribution": -0.23862626546888274
+            },
+            {
+              "feature": "genre__Turn-based strategy (TBS)",
+              "contribution": -0.17980282322147573
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.14517948105785408
+            },
+            {
+              "feature": "genre__Puzzle",
+              "contribution": -0.12146482850749861
             }
           ]
         },
@@ -249,61 +254,61 @@
           "method": "shap",
           "top_factors": [
             {
-              "feature": "genre_affinity",
-              "contribution": -0.3506962142995049
-            },
-            {
               "feature": "release_year",
-              "contribution": -0.336202813344791
-            },
-            {
-              "feature": "aggregated_rating_count",
-              "contribution": -0.3223328717426402
+              "contribution": -0.36877415002041447
             },
             {
               "feature": "aggregated_rating",
-              "contribution": -0.23978334398993023
+              "contribution": -0.3204813496150805
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.25103120662909634
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.18600800351057123
             },
             {
               "feature": "genre__Indie",
-              "contribution": 0.14252036289043962
+              "contribution": 0.12470715272463596
             }
           ]
         }
       ]
     },
     "completion": {
-      "n_eligible": 294,
+      "n_eligible": 299,
       "candidates": {
         "RandomForest": {
           "cv_metrics": {
-            "f1": 0.7709431726030814,
-            "roc_auc": 0.8578181818181818
+            "f1": 0.7820483548668673,
+            "roc_auc": 0.8744664031620552
           }
         },
         "XGBoost": {
           "cv_metrics": {
-            "f1": 0.7144966286910021,
-            "roc_auc": 0.8007272727272727
+            "f1": 0.7400565376652334,
+            "roc_auc": 0.8283794466403162
           }
         },
         "CatBoost": {
           "cv_metrics": {
-            "f1": 0.7642572489988904,
-            "roc_auc": 0.8578181818181818
+            "f1": 0.7639851585738573,
+            "roc_auc": 0.8721739130434782
           }
         },
         "LightGBM": {
           "cv_metrics": {
-            "f1": 0.7034853107736403,
-            "roc_auc": 0.7970909090909092
+            "f1": 0.7517127799736495,
+            "roc_auc": 0.8236521739130435
           }
         }
       },
       "best_candidate": "RandomForest",
       "holdout_metrics": {
-        "f1": 0.5714285714285714,
-        "roc_auc": 0.78125
+        "f1": 0.6,
+        "roc_auc": 0.7818080357142858
       },
       "model_path": "data\\models\\completion_model.joblib",
       "example_explanations": [
@@ -314,23 +319,23 @@
           "top_factors": [
             {
               "feature": "genre_affinity",
-              "contribution": 0.11764225394262585
+              "contribution": 0.11501525535064819
             },
             {
               "feature": "theme_affinity",
-              "contribution": 0.06347251356601855
-            },
-            {
-              "feature": "genre__Adventure",
-              "contribution": 0.0634276823378108
+              "contribution": 0.06843528086865207
             },
             {
               "feature": "publisher_affinity",
-              "contribution": 0.06004221718626354
+              "contribution": 0.06167183871408711
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0598843801361212
             },
             {
               "feature": "developer_affinity",
-              "contribution": 0.05942049052321763
+              "contribution": 0.058365441303840776
             }
           ]
         },
@@ -341,23 +346,23 @@
           "top_factors": [
             {
               "feature": "genre_affinity",
-              "contribution": 0.11764225394262585
+              "contribution": 0.11501525535064819
             },
             {
               "feature": "theme_affinity",
-              "contribution": 0.06347251356601855
-            },
-            {
-              "feature": "genre__Adventure",
-              "contribution": 0.0634276823378108
+              "contribution": 0.06843528086865207
             },
             {
               "feature": "publisher_affinity",
-              "contribution": 0.06004221718626354
+              "contribution": 0.06167183871408711
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0598843801361212
             },
             {
               "feature": "developer_affinity",
-              "contribution": 0.05942049052321763
+              "contribution": 0.058365441303840776
             }
           ]
         },
@@ -368,23 +373,23 @@
           "top_factors": [
             {
               "feature": "genre_affinity",
-              "contribution": 0.11764225394262585
+              "contribution": 0.11501525535064819
             },
             {
               "feature": "theme_affinity",
-              "contribution": 0.06347251356601855
-            },
-            {
-              "feature": "genre__Adventure",
-              "contribution": 0.0634276823378108
+              "contribution": 0.06843528086865207
             },
             {
               "feature": "publisher_affinity",
-              "contribution": 0.06004221718626354
+              "contribution": 0.06167183871408711
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0598843801361212
             },
             {
               "feature": "developer_affinity",
-              "contribution": 0.05942049052321763
+              "contribution": 0.058365441303840776
             }
           ]
         },
@@ -395,23 +400,23 @@
           "top_factors": [
             {
               "feature": "genre_affinity",
-              "contribution": 0.11764225394262585
+              "contribution": 0.11501525535064819
             },
             {
               "feature": "theme_affinity",
-              "contribution": 0.06347251356601855
-            },
-            {
-              "feature": "genre__Adventure",
-              "contribution": 0.0634276823378108
+              "contribution": 0.06843528086865207
             },
             {
               "feature": "publisher_affinity",
-              "contribution": 0.06004221718626354
+              "contribution": 0.06167183871408711
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0598843801361212
             },
             {
               "feature": "developer_affinity",
-              "contribution": 0.05942049052321763
+              "contribution": 0.058365441303840776
             }
           ]
         },
@@ -422,237 +427,237 @@
           "top_factors": [
             {
               "feature": "genre_affinity",
-              "contribution": 0.11764225394262585
+              "contribution": 0.11501525535064819
             },
             {
               "feature": "theme_affinity",
-              "contribution": 0.06347251356601855
-            },
-            {
-              "feature": "genre__Adventure",
-              "contribution": 0.0634276823378108
+              "contribution": 0.06843528086865207
             },
             {
               "feature": "publisher_affinity",
-              "contribution": 0.06004221718626354
+              "contribution": 0.06167183871408711
+            },
+            {
+              "feature": "genre__Adventure",
+              "contribution": 0.0598843801361212
             },
             {
               "feature": "developer_affinity",
-              "contribution": 0.05942049052321763
+              "contribution": 0.058365441303840776
             }
           ]
         }
       ]
     },
     "replay": {
-      "n_eligible": 294,
+      "n_eligible": 299,
       "candidates": {
         "RandomForest": {
           "cv_metrics": {
             "f1": 0.0,
-            "roc_auc": 0.7766666666666666
+            "roc_auc": 0.7094927536231884
           }
         },
         "XGBoost": {
           "cv_metrics": {
             "f1": 0.0,
-            "roc_auc": 0.6977777777777778
+            "roc_auc": 0.6989855072463768
           }
         },
         "CatBoost": {
           "cv_metrics": {
             "f1": 0.0,
-            "roc_auc": 0.7355555555555556
+            "roc_auc": 0.7597101449275362
           }
         },
         "LightGBM": {
           "cv_metrics": {
-            "f1": 0.13333333333333333,
-            "roc_auc": 0.7133333333333333
+            "f1": 0.0,
+            "roc_auc": 0.6797584541062802
           }
         }
       },
-      "best_candidate": "RandomForest",
+      "best_candidate": "CatBoost",
       "holdout_metrics": {
         "f1": 0.0,
-        "roc_auc": 0.7172619047619048
+        "roc_auc": 0.783625730994152
       },
       "model_path": "data\\models\\replay_model.joblib",
       "example_explanations": [
         {
           "igdb_id": "115289",
           "title": "Hollow Knight: Silksong",
-          "method": "global_feature_importance",
+          "method": "shap",
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": 0.13907670383165754
+              "contribution": 0.6660249881963693
             },
             {
-              "feature": "theme_affinity",
-              "contribution": 0.11358194096845999
+              "feature": "publisher_affinity",
+              "contribution": -0.36657596503420703
             },
             {
               "feature": "aggregated_rating_count",
-              "contribution": 0.10713049381197061
+              "contribution": -0.2656053639135954
             },
             {
-              "feature": "genre_affinity",
-              "contribution": 0.07790250159524958
+              "feature": "developer_affinity",
+              "contribution": 0.19211207153794868
             },
             {
-              "feature": "release_year",
-              "contribution": 0.061347525162989074
+              "feature": "theme_affinity",
+              "contribution": 0.17161391147247335
             }
           ]
         },
         {
           "igdb_id": "234740",
           "title": "Nocturnal",
-          "method": "global_feature_importance",
+          "method": "shap",
           "top_factors": [
             {
-              "feature": "aggregated_rating",
-              "contribution": 0.13907670383165754
+              "feature": "aggregated_rating_count",
+              "contribution": -0.282032683670335
             },
             {
               "feature": "theme_affinity",
-              "contribution": 0.11358194096845999
+              "contribution": 0.24382645194226357
             },
             {
-              "feature": "aggregated_rating_count",
-              "contribution": 0.10713049381197061
+              "feature": "publisher_affinity",
+              "contribution": 0.23200895727284268
             },
             {
               "feature": "genre_affinity",
-              "contribution": 0.07790250159524958
+              "contribution": 0.13293908545207908
             },
             {
-              "feature": "release_year",
-              "contribution": 0.061347525162989074
+              "feature": "theme__Fantasy",
+              "contribution": 0.11805657622288307
             }
           ]
         },
         {
           "igdb_id": "378229",
           "title": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
-          "method": "global_feature_importance",
+          "method": "shap",
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": 0.13907670383165754
-            },
-            {
-              "feature": "theme_affinity",
-              "contribution": 0.11358194096845999
+              "contribution": -0.603405954769771
             },
             {
               "feature": "aggregated_rating_count",
-              "contribution": 0.10713049381197061
+              "contribution": -0.295556688516347
             },
             {
-              "feature": "genre_affinity",
-              "contribution": 0.07790250159524958
+              "feature": "theme_affinity",
+              "contribution": 0.19477124582192396
             },
             {
-              "feature": "release_year",
-              "contribution": 0.061347525162989074
+              "feature": "genre__Strategy",
+              "contribution": 0.16204065546176033
+            },
+            {
+              "feature": "theme__Fantasy",
+              "contribution": 0.12127912457899226
             }
           ]
         },
         {
           "igdb_id": "136045",
           "title": "5D Chess With Multiverse Time Travel",
-          "method": "global_feature_importance",
+          "method": "shap",
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": 0.13907670383165754
-            },
-            {
-              "feature": "theme_affinity",
-              "contribution": 0.11358194096845999
-            },
-            {
-              "feature": "aggregated_rating_count",
-              "contribution": 0.10713049381197061
-            },
-            {
-              "feature": "genre_affinity",
-              "contribution": 0.07790250159524958
+              "contribution": -0.3150211659078872
             },
             {
               "feature": "release_year",
-              "contribution": 0.061347525162989074
+              "contribution": 0.26743306316608556
+            },
+            {
+              "feature": "aggregated_rating_count",
+              "contribution": -0.24651497056477423
+            },
+            {
+              "feature": "publisher_affinity",
+              "contribution": 0.22972248710771687
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": 0.1169520715534073
             }
           ]
         },
         {
           "igdb_id": "361027",
           "title": "Gamble With Your Friends",
-          "method": "global_feature_importance",
+          "method": "shap",
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": 0.13907670383165754
-            },
-            {
-              "feature": "theme_affinity",
-              "contribution": 0.11358194096845999
+              "contribution": -0.3667492031122617
             },
             {
               "feature": "aggregated_rating_count",
-              "contribution": 0.10713049381197061
+              "contribution": -0.22792181241692921
+            },
+            {
+              "feature": "publisher_affinity",
+              "contribution": 0.21648833046040833
+            },
+            {
+              "feature": "genre__Strategy",
+              "contribution": 0.12911653528861478
             },
             {
               "feature": "genre_affinity",
-              "contribution": 0.07790250159524958
-            },
-            {
-              "feature": "release_year",
-              "contribution": 0.061347525162989074
+              "contribution": 0.1128139110513879
             }
           ]
         }
       ]
     },
     "engagement": {
-      "n_eligible": 294,
+      "n_eligible": 299,
       "candidates": {
         "RandomForest": {
           "cv_metrics": {
-            "mae": 0.0821171709861631,
-            "rmse": 0.10591814131347324,
-            "r2": 0.20960848846142968
+            "mae": 0.08308550756891442,
+            "rmse": 0.10711137868398835,
+            "r2": 0.12793967278881277
           }
         },
         "XGBoost": {
           "cv_metrics": {
-            "mae": 0.08243608811595178,
-            "rmse": 0.10719602800556749,
-            "r2": 0.18523657462804935
+            "mae": 0.0882328848421031,
+            "rmse": 0.11700428917740384,
+            "r2": -0.07179353418978188
           }
         },
         "CatBoost": {
           "cv_metrics": {
-            "mae": 0.08137282994437564,
-            "rmse": 0.1056220866331464,
-            "r2": 0.21424853430053203
+            "mae": 0.08446070024726993,
+            "rmse": 0.10837723836471588,
+            "r2": 0.10351994379817761
           }
         },
         "LightGBM": {
           "cv_metrics": {
-            "mae": 0.0892028081098461,
-            "rmse": 0.11819699710841833,
-            "r2": -0.009810321882789252
+            "mae": 0.08963146939460302,
+            "rmse": 0.11584968618151041,
+            "r2": -0.04085201167307047
           }
         }
       },
-      "best_candidate": "CatBoost",
+      "best_candidate": "RandomForest",
       "holdout_metrics": {
-        "mae": 0.09759247219826202,
-        "rmse": 0.12727939599567273,
-        "r2": 0.00527266408145588
+        "mae": 0.09672988454332931,
+        "rmse": 0.1334173076366813,
+        "r2": 0.04859079424285351
       },
       "model_path": "data\\models\\engagement_model.joblib",
       "example_explanations": [
@@ -663,23 +668,23 @@
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": 0.037192078984727935
+              "contribution": 0.0515873742470117
             },
             {
               "feature": "developer_affinity",
-              "contribution": 0.03502669702337507
+              "contribution": 0.0338729887268556
             },
             {
               "feature": "aggregated_rating_count",
-              "contribution": -0.01728855353055573
+              "contribution": -0.010677715554054406
             },
             {
-              "feature": "theme__Fantasy",
-              "contribution": 0.013761968760187452
+              "feature": "genre_affinity",
+              "contribution": -0.007727594357353963
             },
             {
-              "feature": "release_year",
-              "contribution": 0.010814810319672859
+              "feature": "publisher_affinity",
+              "contribution": -0.004679745225283694
             }
           ]
         },
@@ -690,23 +695,23 @@
           "top_factors": [
             {
               "feature": "aggregated_rating_count",
-              "contribution": -0.028613412109198523
+              "contribution": -0.027925488668495264
             },
             {
               "feature": "aggregated_rating",
-              "contribution": -0.023989767298111985
+              "contribution": -0.023190382067144806
             },
             {
               "feature": "genre_affinity",
-              "contribution": -0.02354685992485471
+              "contribution": -0.01704708262183995
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": -0.014141060660835028
             },
             {
               "feature": "release_year",
-              "contribution": -0.018313912174650178
-            },
-            {
-              "feature": "theme_affinity",
-              "contribution": -0.01605859476767579
+              "contribution": -0.012487789385014221
             }
           ]
         },
@@ -717,23 +722,23 @@
           "top_factors": [
             {
               "feature": "aggregated_rating",
-              "contribution": -0.05371511794746074
+              "contribution": -0.04072678711196497
             },
             {
               "feature": "aggregated_rating_count",
-              "contribution": -0.032385430511196356
-            },
-            {
-              "feature": "theme__Fantasy",
-              "contribution": 0.01570424372964366
+              "contribution": -0.023208930932474198
             },
             {
               "feature": "release_year",
-              "contribution": -0.014280802190964257
+              "contribution": -0.012005489679304869
             },
             {
-              "feature": "genre__Strategy",
-              "contribution": -0.011988988731215145
+              "feature": "genre__Turn-based strategy (TBS)",
+              "contribution": -0.006203517519553874
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.005425178564404633
             }
           ]
         },
@@ -743,24 +748,24 @@
           "method": "shap",
           "top_factors": [
             {
-              "feature": "genre__Puzzle",
-              "contribution": -0.03574644453049302
-            },
-            {
-              "feature": "genre_affinity",
-              "contribution": -0.029371323414772606
+              "feature": "genre__Turn-based strategy (TBS)",
+              "contribution": -0.025307581020125387
             },
             {
               "feature": "aggregated_rating_count",
-              "contribution": -0.029335563655876914
+              "contribution": -0.024228588678764762
             },
             {
               "feature": "aggregated_rating",
-              "contribution": -0.013548222841411418
+              "contribution": -0.021468521096918002
+            },
+            {
+              "feature": "genre_affinity",
+              "contribution": -0.016685548354571967
             },
             {
               "feature": "developer_affinity",
-              "contribution": -0.012962609935276396
+              "contribution": -0.010249004836635132
             }
           ]
         },
@@ -770,24 +775,24 @@
           "method": "shap",
           "top_factors": [
             {
+              "feature": "aggregated_rating",
+              "contribution": -0.021592474171960505
+            },
+            {
               "feature": "aggregated_rating_count",
-              "contribution": -0.025050598656728366
+              "contribution": -0.018609920661272983
             },
             {
               "feature": "genre_affinity",
-              "contribution": -0.024624046016179676
-            },
-            {
-              "feature": "aggregated_rating",
-              "contribution": -0.017712338579253434
-            },
-            {
-              "feature": "developer_affinity",
-              "contribution": -0.01608754109654004
+              "contribution": -0.017005934196994463
             },
             {
               "feature": "release_year",
-              "contribution": -0.009928286529786686
+              "contribution": -0.015521479971154238
+            },
+            {
+              "feature": "developer_affinity",
+              "contribution": -0.012629343725899987
             }
           ]
         }
