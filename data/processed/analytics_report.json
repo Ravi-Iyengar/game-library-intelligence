@@ -1,0 +1,3822 @@
+{
+  "library_overview": {
+    "total_games": 408,
+    "total_hours_logged": 11436.233333333334,
+    "rated_games": 309,
+    "average_rating": 6.877022653721683,
+    "status_counts": {
+      "completed": 199,
+      "played": 88,
+      "abandoned": 14,
+      "retired": 104,
+      "shelved": 3
+    },
+    "signal_category_counts": {
+      "positive": 199,
+      "neutral": 195,
+      "negative": 14
+    }
+  },
+  "tag_preferences": {
+    "genres": [
+      {
+        "tag": "Turn-based strategy (TBS)",
+        "game_count": 29,
+        "total_hours": 832.4166666666667,
+        "avg_rating": 6.857142857142857,
+        "hours_weighted_rating": 9.12894183601962
+      },
+      {
+        "tag": "Visual Novel",
+        "game_count": 4,
+        "total_hours": 143.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.818181818181818
+      },
+      {
+        "tag": "Role-playing (RPG)",
+        "game_count": 144,
+        "total_hours": 4386.0,
+        "avg_rating": 7.548387096774194,
+        "hours_weighted_rating": 8.674726277372264
+      },
+      {
+        "tag": "Adventure",
+        "game_count": 219,
+        "total_hours": 5566.0,
+        "avg_rating": 7.346666666666667,
+        "hours_weighted_rating": 8.608594030924127
+      },
+      {
+        "tag": "Strategy",
+        "game_count": 60,
+        "total_hours": 1612.4166666666667,
+        "avg_rating": 6.813953488372093,
+        "hours_weighted_rating": 8.533205850431546
+      },
+      {
+        "tag": "Real Time Strategy (RTS)",
+        "game_count": 6,
+        "total_hours": 330.0,
+        "avg_rating": 7.4,
+        "hours_weighted_rating": 8.515151515151516
+      },
+      {
+        "tag": "Platform",
+        "game_count": 50,
+        "total_hours": 581.0,
+        "avg_rating": 7.0588235294117645,
+        "hours_weighted_rating": 8.093264248704664
+      },
+      {
+        "tag": "Hack and slash/Beat 'em up",
+        "game_count": 42,
+        "total_hours": 753.0,
+        "avg_rating": 7.3125,
+        "hours_weighted_rating": 7.840637450199203
+      },
+      {
+        "tag": "Indie",
+        "game_count": 71,
+        "total_hours": 1060.4166666666665,
+        "avg_rating": 7.1525423728813555,
+        "hours_weighted_rating": 7.823084796472719
+      },
+      {
+        "tag": "Shooter",
+        "game_count": 111,
+        "total_hours": 4145.5,
+        "avg_rating": 6.863636363636363,
+        "hours_weighted_rating": 7.790686451924237
+      },
+      {
+        "tag": "Racing",
+        "game_count": 25,
+        "total_hours": 867.0,
+        "avg_rating": 6.75,
+        "hours_weighted_rating": 7.71280276816609
+      },
+      {
+        "tag": "Simulator",
+        "game_count": 77,
+        "total_hours": 2778.7333333333336,
+        "avg_rating": 6.555555555555555,
+        "hours_weighted_rating": 7.70702536621079
+      },
+      {
+        "tag": "Fighting",
+        "game_count": 11,
+        "total_hours": 352.0,
+        "avg_rating": 6.7272727272727275,
+        "hours_weighted_rating": 7.440340909090909
+      },
+      {
+        "tag": "Arcade",
+        "game_count": 26,
+        "total_hours": 232.0,
+        "avg_rating": 6.619047619047619,
+        "hours_weighted_rating": 7.3130434782608695
+      },
+      {
+        "tag": "Point-and-click",
+        "game_count": 3,
+        "total_hours": 22.0,
+        "avg_rating": 6.666666666666667,
+        "hours_weighted_rating": 7.2727272727272725
+      },
+      {
+        "tag": "Puzzle",
+        "game_count": 35,
+        "total_hours": 261.41666666666663,
+        "avg_rating": 6.695652173913044,
+        "hours_weighted_rating": 7.203379024545746
+      },
+      {
+        "tag": "Tactical",
+        "game_count": 37,
+        "total_hours": 679.5,
+        "avg_rating": 6.409090909090909,
+        "hours_weighted_rating": 6.977957384276268
+      },
+      {
+        "tag": "Music",
+        "game_count": 12,
+        "total_hours": 92.83333333333333,
+        "avg_rating": 6.818181818181818,
+        "hours_weighted_rating": 6.694793536804309
+      },
+      {
+        "tag": "Card & Board Game",
+        "game_count": 8,
+        "total_hours": 37.0,
+        "avg_rating": 6.428571428571429,
+        "hours_weighted_rating": 6.648648648648648
+      },
+      {
+        "tag": "Sport",
+        "game_count": 37,
+        "total_hours": 1761.75,
+        "avg_rating": 5.4324324324324325,
+        "hours_weighted_rating": 5.945366822761459
+      },
+      {
+        "tag": "MOBA",
+        "game_count": 2,
+        "total_hours": 27.0,
+        "avg_rating": 5.0,
+        "hours_weighted_rating": 5.0
+      }
+    ],
+    "themes": [
+      {
+        "tag": "Kids",
+        "game_count": 20,
+        "total_hours": 870.4166666666667,
+        "avg_rating": 7.285714285714286,
+        "hours_weighted_rating": 9.218642117376294
+      },
+      {
+        "tag": "4X (explore, expand, exploit, and exterminate)",
+        "game_count": 7,
+        "total_hours": 597.0,
+        "avg_rating": 6.571428571428571,
+        "hours_weighted_rating": 8.921273031825796
+      },
+      {
+        "tag": "Survival",
+        "game_count": 25,
+        "total_hours": 912.0,
+        "avg_rating": 7.45,
+        "hours_weighted_rating": 8.901315789473685
+      },
+      {
+        "tag": "Drama",
+        "game_count": 28,
+        "total_hours": 830.0,
+        "avg_rating": 7.8,
+        "hours_weighted_rating": 8.893975903614457
+      },
+      {
+        "tag": "Mystery",
+        "game_count": 12,
+        "total_hours": 492.0,
+        "avg_rating": 7.555555555555555,
+        "hours_weighted_rating": 8.768292682926829
+      },
+      {
+        "tag": "Fantasy",
+        "game_count": 156,
+        "total_hours": 4326.166666666666,
+        "avg_rating": 7.5,
+        "hours_weighted_rating": 8.576213339503674
+      },
+      {
+        "tag": "Romance",
+        "game_count": 4,
+        "total_hours": 118.0,
+        "avg_rating": 7.75,
+        "hours_weighted_rating": 8.567796610169491
+      },
+      {
+        "tag": "Sandbox",
+        "game_count": 50,
+        "total_hours": 1735.4166666666665,
+        "avg_rating": 7.315789473684211,
+        "hours_weighted_rating": 8.556516724336793
+      },
+      {
+        "tag": "Historical",
+        "game_count": 25,
+        "total_hours": 753.0,
+        "avg_rating": 6.4375,
+        "hours_weighted_rating": 8.457559681697612
+      },
+      {
+        "tag": "Comedy",
+        "game_count": 58,
+        "total_hours": 1300.15,
+        "avg_rating": 7.25,
+        "hours_weighted_rating": 8.378346107922813
+      },
+      {
+        "tag": "Open world",
+        "game_count": 91,
+        "total_hours": 2652.0,
+        "avg_rating": 7.5,
+        "hours_weighted_rating": 8.3736802413273
+      },
+      {
+        "tag": "Horror",
+        "game_count": 37,
+        "total_hours": 568.0,
+        "avg_rating": 7.818181818181818,
+        "hours_weighted_rating": 8.151408450704226
+      },
+      {
+        "tag": "Science fiction",
+        "game_count": 93,
+        "total_hours": 3819.5,
+        "avg_rating": 7.171428571428572,
+        "hours_weighted_rating": 8.039403063228171
+      },
+      {
+        "tag": "Party",
+        "game_count": 19,
+        "total_hours": 344.0,
+        "avg_rating": 7.0588235294117645,
+        "hours_weighted_rating": 7.872093023255814
+      },
+      {
+        "tag": "Action",
+        "game_count": 309,
+        "total_hours": 8201.083333333334,
+        "avg_rating": 7.008658008658009,
+        "hours_weighted_rating": 7.791633211029688
+      },
+      {
+        "tag": "Stealth",
+        "game_count": 38,
+        "total_hours": 654.0,
+        "avg_rating": 7.103448275862069,
+        "hours_weighted_rating": 7.534351145038168
+      },
+      {
+        "tag": "Thriller",
+        "game_count": 10,
+        "total_hours": 147.0,
+        "avg_rating": 6.75,
+        "hours_weighted_rating": 7.408163265306122
+      },
+      {
+        "tag": "Business",
+        "game_count": 15,
+        "total_hours": 312.4166666666667,
+        "avg_rating": 6.769230769230769,
+        "hours_weighted_rating": 7.086816720257235
+      },
+      {
+        "tag": "Warfare",
+        "game_count": 30,
+        "total_hours": 706.0,
+        "avg_rating": 6.291666666666667,
+        "hours_weighted_rating": 6.81586402266289
+      },
+      {
+        "tag": "Educational",
+        "game_count": 2,
+        "total_hours": 7.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 6.571428571428571
+      },
+      {
+        "tag": "Non-fiction",
+        "game_count": 23,
+        "total_hours": 1119.0,
+        "avg_rating": 5.304347826086956,
+        "hours_weighted_rating": 5.189454870420018
+      }
+    ],
+    "developers": [
+      {
+        "tag": "Digital Extremes",
+        "game_count": 3,
+        "total_hours": 901.0,
+        "avg_rating": 10.0,
+        "hours_weighted_rating": 10.0
+      },
+      {
+        "tag": "CD Projekt RED",
+        "game_count": 5,
+        "total_hours": 170.0,
+        "avg_rating": 10.0,
+        "hours_weighted_rating": 10.0
+      },
+      {
+        "tag": "Larian Studios",
+        "game_count": 3,
+        "total_hours": 267.0,
+        "avg_rating": 10.0,
+        "hours_weighted_rating": 10.0
+      },
+      {
+        "tag": "id Software",
+        "game_count": 3,
+        "total_hours": 20.0,
+        "avg_rating": 9.5,
+        "hours_weighted_rating": 9.5
+      },
+      {
+        "tag": "Rockstar Games",
+        "game_count": 2,
+        "total_hours": 70.0,
+        "avg_rating": 9.0,
+        "hours_weighted_rating": 9.285714285714286
+      },
+      {
+        "tag": "FromSoftware",
+        "game_count": 7,
+        "total_hours": 450.0,
+        "avg_rating": 8.857142857142858,
+        "hours_weighted_rating": 9.088888888888889
+      },
+      {
+        "tag": "Sora",
+        "game_count": 2,
+        "total_hours": 100.0,
+        "avg_rating": 9.0,
+        "hours_weighted_rating": 9.0
+      },
+      {
+        "tag": "Ghost Town Games",
+        "game_count": 2,
+        "total_hours": 15.0,
+        "avg_rating": 9.0,
+        "hours_weighted_rating": 9.0
+      },
+      {
+        "tag": "Firaxis Games",
+        "game_count": 4,
+        "total_hours": 419.0,
+        "avg_rating": 7.5,
+        "hours_weighted_rating": 8.964200477326969
+      },
+      {
+        "tag": "Game Freak",
+        "game_count": 3,
+        "total_hours": 62.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.935483870967742
+      },
+      {
+        "tag": "Virtuos",
+        "game_count": 3,
+        "total_hours": 85.0,
+        "avg_rating": 7.5,
+        "hours_weighted_rating": 8.823529411764707
+      },
+      {
+        "tag": "P Studio",
+        "game_count": 10,
+        "total_hours": 471.0,
+        "avg_rating": 7.555555555555555,
+        "hours_weighted_rating": 8.76595744680851
+      },
+      {
+        "tag": "Bandai Namco Studios",
+        "game_count": 2,
+        "total_hours": 135.0,
+        "avg_rating": 8.5,
+        "hours_weighted_rating": 8.74074074074074
+      },
+      {
+        "tag": "Square Enix Creative Business Unit I",
+        "game_count": 3,
+        "total_hours": 55.0,
+        "avg_rating": 8.5,
+        "hours_weighted_rating": 8.727272727272727
+      },
+      {
+        "tag": "Paradox Development Studio",
+        "game_count": 4,
+        "total_hours": 275.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 8.6
+      },
+      {
+        "tag": "Team Cherry",
+        "game_count": 2,
+        "total_hours": 80.0,
+        "avg_rating": 8.5,
+        "hours_weighted_rating": 8.5
+      },
+      {
+        "tag": "Atlus",
+        "game_count": 8,
+        "total_hours": 330.0,
+        "avg_rating": 7.2,
+        "hours_weighted_rating": 8.287878787878787
+      },
+      {
+        "tag": "Square Enix Business Division 3",
+        "game_count": 6,
+        "total_hours": 310.0,
+        "avg_rating": 7.6,
+        "hours_weighted_rating": 8.14516129032258
+      },
+      {
+        "tag": "Rockstar North",
+        "game_count": 4,
+        "total_hours": 303.0,
+        "avg_rating": 8.333333333333334,
+        "hours_weighted_rating": 8.05940594059406
+      },
+      {
+        "tag": "Techland",
+        "game_count": 3,
+        "total_hours": 119.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.0
+      },
+      {
+        "tag": "Square Enix Business Division 6",
+        "game_count": 2,
+        "total_hours": 16.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.0
+      },
+      {
+        "tag": "Rocksteady Studios",
+        "game_count": 3,
+        "total_hours": 44.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.0
+      },
+      {
+        "tag": "Square Enix 1st Production Department",
+        "game_count": 2,
+        "total_hours": 90.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.0
+      },
+      {
+        "tag": "Studio MDHR",
+        "game_count": 2,
+        "total_hours": 22.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.0
+      },
+      {
+        "tag": "Ryu Ga Gotoku Studio",
+        "game_count": 3,
+        "total_hours": 90.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 7.777777777777778
+      },
+      {
+        "tag": "Maxis",
+        "game_count": 3,
+        "total_hours": 115.0,
+        "avg_rating": 7.333333333333333,
+        "hours_weighted_rating": 7.739130434782608
+      },
+      {
+        "tag": "Insomniac Games",
+        "game_count": 3,
+        "total_hours": 70.0,
+        "avg_rating": 7.666666666666667,
+        "hours_weighted_rating": 7.714285714285714
+      },
+      {
+        "tag": "Next Level Games",
+        "game_count": 3,
+        "total_hours": 30.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 7.666666666666667
+      },
+      {
+        "tag": "Bigbig Studios",
+        "game_count": 2,
+        "total_hours": 36.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.666666666666667
+      },
+      {
+        "tag": "Capcom",
+        "game_count": 4,
+        "total_hours": 25.0,
+        "avg_rating": 7.333333333333333,
+        "hours_weighted_rating": 7.6
+      },
+      {
+        "tag": "EA Digital Illusions CE",
+        "game_count": 3,
+        "total_hours": 75.0,
+        "avg_rating": 7.333333333333333,
+        "hours_weighted_rating": 7.6
+      },
+      {
+        "tag": "Square Enix Creative Business Unit III",
+        "game_count": 4,
+        "total_hours": 23.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.565217391304348
+      },
+      {
+        "tag": "Valve",
+        "game_count": 5,
+        "total_hours": 230.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 7.565217391304348
+      },
+      {
+        "tag": "The Sims Studio",
+        "game_count": 2,
+        "total_hours": 65.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.538461538461538
+      },
+      {
+        "tag": "Nintendo Entertainment Planning & Development",
+        "game_count": 3,
+        "total_hours": 80.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.5
+      },
+      {
+        "tag": "Respawn Entertainment",
+        "game_count": 3,
+        "total_hours": 136.5,
+        "avg_rating": 7.666666666666667,
+        "hours_weighted_rating": 7.329670329670329
+      },
+      {
+        "tag": "Sports Interactive",
+        "game_count": 3,
+        "total_hours": 85.0,
+        "avg_rating": 7.333333333333333,
+        "hours_weighted_rating": 7.294117647058823
+      },
+      {
+        "tag": "Arkane Studios",
+        "game_count": 3,
+        "total_hours": 40.0,
+        "avg_rating": 7.666666666666667,
+        "hours_weighted_rating": 7.25
+      },
+      {
+        "tag": "1047 Games",
+        "game_count": 2,
+        "total_hours": 25.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 7.2
+      },
+      {
+        "tag": "Nintendo EPD Production Group No. 4",
+        "game_count": 3,
+        "total_hours": 32.15,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 7.133748055987558
+      },
+      {
+        "tag": "Nintendo Entertainment Analysis & Development",
+        "game_count": 7,
+        "total_hours": 28.0,
+        "avg_rating": 7.666666666666667,
+        "hours_weighted_rating": 7.035714285714286
+      },
+      {
+        "tag": "PlatinumGames",
+        "game_count": 2,
+        "total_hours": 31.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.032258064516129
+      },
+      {
+        "tag": "Nintendo",
+        "game_count": 5,
+        "total_hours": 14.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "BioWare",
+        "game_count": 2,
+        "total_hours": 10.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Nintendo EPD Production Group No. 3",
+        "game_count": 2,
+        "total_hours": 25.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Arika",
+        "game_count": 2,
+        "total_hours": 5.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Nintendo EPD Production Group No. 8",
+        "game_count": 2,
+        "total_hours": 25.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "SCS Software",
+        "game_count": 2,
+        "total_hours": 55.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Brace Yourself Games",
+        "game_count": 2,
+        "total_hours": 10.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "2K Australia",
+        "game_count": 2,
+        "total_hours": 15.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Feral Interactive",
+        "game_count": 2,
+        "total_hours": 15.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Ubisoft Montreal",
+        "game_count": 10,
+        "total_hours": 135.0,
+        "avg_rating": 6.285714285714286,
+        "hours_weighted_rating": 6.888888888888889
+      },
+      {
+        "tag": "Yuke's",
+        "game_count": 3,
+        "total_hours": 170.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.852941176470588
+      },
+      {
+        "tag": "Infinity Ward",
+        "game_count": 4,
+        "total_hours": 115.0,
+        "avg_rating": 6.75,
+        "hours_weighted_rating": 6.739130434782608
+      },
+      {
+        "tag": "Riot Games",
+        "game_count": 2,
+        "total_hours": 175.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.714285714285714
+      },
+      {
+        "tag": "Criterion Games",
+        "game_count": 2,
+        "total_hours": 30.0,
+        "avg_rating": 6.5,
+        "hours_weighted_rating": 6.5
+      },
+      {
+        "tag": "TNX",
+        "game_count": 2,
+        "total_hours": 11.833333333333334,
+        "avg_rating": 7.5,
+        "hours_weighted_rating": 6.464788732394366
+      },
+      {
+        "tag": "Blizzard Entertainment",
+        "game_count": 4,
+        "total_hours": 925.0,
+        "avg_rating": 6.75,
+        "hours_weighted_rating": 6.34054054054054
+      },
+      {
+        "tag": "Poncle",
+        "game_count": 2,
+        "total_hours": 3.0,
+        "avg_rating": 6.5,
+        "hours_weighted_rating": 6.333333333333333
+      },
+      {
+        "tag": "Bethesda Game Studios",
+        "game_count": 2,
+        "total_hours": 75.0,
+        "avg_rating": 5.0,
+        "hours_weighted_rating": 6.2
+      },
+      {
+        "tag": "Kojima Productions",
+        "game_count": 2,
+        "total_hours": 30.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 6.064516129032258
+      },
+      {
+        "tag": "Treyarch",
+        "game_count": 2,
+        "total_hours": 35.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "SCE Santa Monica Studio",
+        "game_count": 4,
+        "total_hours": 7.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Nintendo R&D1",
+        "game_count": 2,
+        "total_hours": 5.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Rare",
+        "game_count": 3,
+        "total_hours": 5.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Nintendo R&D4",
+        "game_count": 3,
+        "total_hours": 21.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Gearbox Software",
+        "game_count": 2,
+        "total_hours": 40.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Konami",
+        "game_count": 5,
+        "total_hours": 15.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 5.866666666666666
+      },
+      {
+        "tag": "EA Canada",
+        "game_count": 2,
+        "total_hours": 110.0,
+        "avg_rating": 5.5,
+        "hours_weighted_rating": 5.545454545454546
+      },
+      {
+        "tag": "Dimps",
+        "game_count": 2,
+        "total_hours": 11.0,
+        "avg_rating": 5.5,
+        "hours_weighted_rating": 5.454545454545454
+      },
+      {
+        "tag": "Capcom Production Studio 1",
+        "game_count": 2,
+        "total_hours": 17.0,
+        "avg_rating": 5.5,
+        "hours_weighted_rating": 5.411764705882353
+      },
+      {
+        "tag": "Sledgehammer Games",
+        "game_count": 3,
+        "total_hours": 85.0,
+        "avg_rating": 5.0,
+        "hours_weighted_rating": 5.0
+      },
+      {
+        "tag": "EA Romania",
+        "game_count": 5,
+        "total_hours": 350.0,
+        "avg_rating": 5.0,
+        "hours_weighted_rating": 5.0
+      },
+      {
+        "tag": "Ubisoft Shanghai",
+        "game_count": 4,
+        "total_hours": 5.0,
+        "avg_rating": 5.0,
+        "hours_weighted_rating": 5.0
+      },
+      {
+        "tag": "Visual Concepts",
+        "game_count": 8,
+        "total_hours": 147.0,
+        "avg_rating": 4.75,
+        "hours_weighted_rating": 4.945578231292517
+      },
+      {
+        "tag": "Saber Interactive",
+        "game_count": 2,
+        "total_hours": 22.0,
+        "avg_rating": 3.5,
+        "hours_weighted_rating": 4.7272727272727275
+      },
+      {
+        "tag": "EA Vancouver",
+        "game_count": 9,
+        "total_hours": 722.0,
+        "avg_rating": 4.555555555555555,
+        "hours_weighted_rating": 4.61218836565097
+      },
+      {
+        "tag": "Lucid Games",
+        "game_count": 2,
+        "total_hours": 12.0,
+        "avg_rating": 5.0,
+        "hours_weighted_rating": 4.5
+      },
+      {
+        "tag": "Nintendo SPD Production Group No. 2",
+        "game_count": 2,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Intelligent Systems",
+        "game_count": 7,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Nicalis, Inc.",
+        "game_count": 2,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Edmund McMillen",
+        "game_count": 3,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Monolith Soft",
+        "game_count": 3,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Nintendo EAD Software Development Group No.3",
+        "game_count": 4,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Square Product Development Division 4",
+        "game_count": 2,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Naughty Dog",
+        "game_count": 3,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Ready At Dawn",
+        "game_count": 2,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Nintendo SPD",
+        "game_count": 3,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "AlphaDream",
+        "game_count": 2,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Square",
+        "game_count": 3,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      }
+    ],
+    "publishers": [
+      {
+        "tag": "Digital Extremes",
+        "game_count": 2,
+        "total_hours": 901.0,
+        "avg_rating": 10.0,
+        "hours_weighted_rating": 10.0
+      },
+      {
+        "tag": "CD Projekt RED",
+        "game_count": 2,
+        "total_hours": 50.0,
+        "avg_rating": 10.0,
+        "hours_weighted_rating": 10.0
+      },
+      {
+        "tag": "CD Projekt",
+        "game_count": 2,
+        "total_hours": 120.0,
+        "avg_rating": 10.0,
+        "hours_weighted_rating": 10.0
+      },
+      {
+        "tag": "Larian Studios",
+        "game_count": 2,
+        "total_hours": 267.0,
+        "avg_rating": 10.0,
+        "hours_weighted_rating": 10.0
+      },
+      {
+        "tag": "Deep Silver",
+        "game_count": 5,
+        "total_hours": 170.0,
+        "avg_rating": 8.666666666666666,
+        "hours_weighted_rating": 9.840236686390533
+      },
+      {
+        "tag": "Atlus USA",
+        "game_count": 6,
+        "total_hours": 340.0,
+        "avg_rating": 7.6,
+        "hours_weighted_rating": 8.970588235294118
+      },
+      {
+        "tag": "Aspyr Media",
+        "game_count": 3,
+        "total_hours": 439.0,
+        "avg_rating": 6.666666666666667,
+        "hours_weighted_rating": 8.783599088838269
+      },
+      {
+        "tag": "Atlus",
+        "game_count": 16,
+        "total_hours": 616.0,
+        "avg_rating": 7.545454545454546,
+        "hours_weighted_rating": 8.699186991869919
+      },
+      {
+        "tag": "Sony Computer Entertainment",
+        "game_count": 20,
+        "total_hours": 239.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 8.539748953974895
+      },
+      {
+        "tag": "Team Cherry",
+        "game_count": 2,
+        "total_hours": 80.0,
+        "avg_rating": 8.5,
+        "hours_weighted_rating": 8.5
+      },
+      {
+        "tag": "FromSoftware",
+        "game_count": 2,
+        "total_hours": 140.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.5
+      },
+      {
+        "tag": "505 Games",
+        "game_count": 7,
+        "total_hours": 102.0,
+        "avg_rating": 7.166666666666667,
+        "hours_weighted_rating": 8.470588235294118
+      },
+      {
+        "tag": "Paradox Interactive",
+        "game_count": 8,
+        "total_hours": 317.0,
+        "avg_rating": 6.625,
+        "hours_weighted_rating": 8.35646687697161
+      },
+      {
+        "tag": "Sega",
+        "game_count": 15,
+        "total_hours": 547.0,
+        "avg_rating": 7.5,
+        "hours_weighted_rating": 8.305860805860807
+      },
+      {
+        "tag": "Rockstar Games",
+        "game_count": 6,
+        "total_hours": 373.0,
+        "avg_rating": 8.6,
+        "hours_weighted_rating": 8.289544235924932
+      },
+      {
+        "tag": "Take-Two Interactive",
+        "game_count": 6,
+        "total_hours": 354.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.254237288135593
+      },
+      {
+        "tag": "Team17",
+        "game_count": 3,
+        "total_hours": 20.0,
+        "avg_rating": 7.5,
+        "hours_weighted_rating": 8.25
+      },
+      {
+        "tag": "2K Games",
+        "game_count": 13,
+        "total_hours": 546.0,
+        "avg_rating": 5.666666666666667,
+        "hours_weighted_rating": 8.168498168498168
+      },
+      {
+        "tag": "Bandai Namco Entertainment",
+        "game_count": 10,
+        "total_hours": 327.0,
+        "avg_rating": 7.375,
+        "hours_weighted_rating": 8.146788990825687
+      },
+      {
+        "tag": "Techland",
+        "game_count": 2,
+        "total_hours": 104.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.0
+      },
+      {
+        "tag": "Studio MDHR",
+        "game_count": 2,
+        "total_hours": 22.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 8.0
+      },
+      {
+        "tag": "Square Enix",
+        "game_count": 30,
+        "total_hours": 771.0,
+        "avg_rating": 7.473684210526316,
+        "hours_weighted_rating": 7.941634241245136
+      },
+      {
+        "tag": "Netflix",
+        "game_count": 2,
+        "total_hours": 21.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.904761904761905
+      },
+      {
+        "tag": "Nintendo",
+        "game_count": 65,
+        "total_hours": 550.3166666666666,
+        "avg_rating": 7.064516129032258,
+        "hours_weighted_rating": 7.831298961559484
+      },
+      {
+        "tag": "Sega Games",
+        "game_count": 3,
+        "total_hours": 90.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 7.777777777777778
+      },
+      {
+        "tag": "Warner Bros. Interactive Entertainment",
+        "game_count": 3,
+        "total_hours": 42.0,
+        "avg_rating": 7.666666666666667,
+        "hours_weighted_rating": 7.761904761904762
+      },
+      {
+        "tag": "WB Games",
+        "game_count": 9,
+        "total_hours": 177.0,
+        "avg_rating": 7.142857142857143,
+        "hours_weighted_rating": 7.661016949152542
+      },
+      {
+        "tag": "Electronic Arts",
+        "game_count": 18,
+        "total_hours": 451.5,
+        "avg_rating": 7.529411764705882,
+        "hours_weighted_rating": 7.653377630121816
+      },
+      {
+        "tag": "Valve",
+        "game_count": 5,
+        "total_hours": 230.0,
+        "avg_rating": 8.0,
+        "hours_weighted_rating": 7.565217391304348
+      },
+      {
+        "tag": "Capcom",
+        "game_count": 10,
+        "total_hours": 47.0,
+        "avg_rating": 7.2,
+        "hours_weighted_rating": 7.48936170212766
+      },
+      {
+        "tag": "Sony Interactive Entertainment",
+        "game_count": 13,
+        "total_hours": 264.0,
+        "avg_rating": 7.2727272727272725,
+        "hours_weighted_rating": 7.4393939393939394
+      },
+      {
+        "tag": "Bethesda Softworks",
+        "game_count": 12,
+        "total_hours": 239.0,
+        "avg_rating": 7.454545454545454,
+        "hours_weighted_rating": 7.389121338912134
+      },
+      {
+        "tag": "Gradiente",
+        "game_count": 9,
+        "total_hours": 15.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.333333333333333
+      },
+      {
+        "tag": "1047 Games",
+        "game_count": 2,
+        "total_hours": 25.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 7.2
+      },
+      {
+        "tag": "iQue",
+        "game_count": 7,
+        "total_hours": 4.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "THQ",
+        "game_count": 2,
+        "total_hours": 150.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Epic Games",
+        "game_count": 2,
+        "total_hours": 100.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "SCS Software",
+        "game_count": 2,
+        "total_hours": 55.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Spike Chunsoft",
+        "game_count": 2,
+        "total_hours": 10.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Brace Yourself Games",
+        "game_count": 2,
+        "total_hours": 10.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Klei Entertainment",
+        "game_count": 2,
+        "total_hours": 10.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 7.0
+      },
+      {
+        "tag": "Hyundai",
+        "game_count": 3,
+        "total_hours": 9.0,
+        "avg_rating": 7.0,
+        "hours_weighted_rating": 6.888888888888889
+      },
+      {
+        "tag": "Nacon",
+        "game_count": 2,
+        "total_hours": 67.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.82089552238806
+      },
+      {
+        "tag": "Feral Interactive",
+        "game_count": 5,
+        "total_hours": 37.0,
+        "avg_rating": 6.666666666666667,
+        "hours_weighted_rating": 6.783783783783784
+      },
+      {
+        "tag": "Ubisoft Entertainment",
+        "game_count": 18,
+        "total_hours": 174.0,
+        "avg_rating": 6.181818181818182,
+        "hours_weighted_rating": 6.781609195402299
+      },
+      {
+        "tag": "Activision",
+        "game_count": 11,
+        "total_hours": 315.0,
+        "avg_rating": 6.363636363636363,
+        "hours_weighted_rating": 6.761904761904762
+      },
+      {
+        "tag": "Microsoft Studios",
+        "game_count": 2,
+        "total_hours": 7.0,
+        "avg_rating": 6.5,
+        "hours_weighted_rating": 6.714285714285714
+      },
+      {
+        "tag": "Riot Games",
+        "game_count": 2,
+        "total_hours": 175.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.714285714285714
+      },
+      {
+        "tag": "NIS America",
+        "game_count": 3,
+        "total_hours": 68.0,
+        "avg_rating": 6.666666666666667,
+        "hours_weighted_rating": 6.602941176470588
+      },
+      {
+        "tag": "Devolver Digital",
+        "game_count": 3,
+        "total_hours": 55.0,
+        "avg_rating": 6.666666666666667,
+        "hours_weighted_rating": 6.545454545454546
+      },
+      {
+        "tag": "Blizzard Entertainment",
+        "game_count": 4,
+        "total_hours": 925.0,
+        "avg_rating": 6.75,
+        "hours_weighted_rating": 6.34054054054054
+      },
+      {
+        "tag": "Poncle",
+        "game_count": 2,
+        "total_hours": 3.0,
+        "avg_rating": 6.5,
+        "hours_weighted_rating": 6.333333333333333
+      },
+      {
+        "tag": "NetEase Games",
+        "game_count": 2,
+        "total_hours": 7.0,
+        "avg_rating": 6.5,
+        "hours_weighted_rating": 6.285714285714286
+      },
+      {
+        "tag": "The Pok\u00e9mon Company",
+        "game_count": 3,
+        "total_hours": 4.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Curve Digital",
+        "game_count": 2,
+        "total_hours": 10.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Playtronic",
+        "game_count": 5,
+        "total_hours": 28.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 6.0
+      },
+      {
+        "tag": "Private Division",
+        "game_count": 2,
+        "total_hours": 8.0,
+        "avg_rating": 6.5,
+        "hours_weighted_rating": 5.75
+      },
+      {
+        "tag": "Konami",
+        "game_count": 7,
+        "total_hours": 17.0,
+        "avg_rating": 6.0,
+        "hours_weighted_rating": 5.444444444444445
+      },
+      {
+        "tag": "2K Sports",
+        "game_count": 5,
+        "total_hours": 29.0,
+        "avg_rating": 4.8,
+        "hours_weighted_rating": 5.379310344827586
+      },
+      {
+        "tag": "EA Sports",
+        "game_count": 12,
+        "total_hours": 932.0,
+        "avg_rating": 5.0,
+        "hours_weighted_rating": 5.085836909871245
+      },
+      {
+        "tag": "2K",
+        "game_count": 7,
+        "total_hours": 135.0,
+        "avg_rating": 4.714285714285714,
+        "hours_weighted_rating": 5.0
+      },
+      {
+        "tag": "Gaijin Entertainment",
+        "game_count": 2,
+        "total_hours": 15.0,
+        "avg_rating": 4.5,
+        "hours_weighted_rating": 4.333333333333333
+      },
+      {
+        "tag": "Nicalis, Inc.",
+        "game_count": 3,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Square Electronic Arts",
+        "game_count": 3,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      },
+      {
+        "tag": "Square",
+        "game_count": 6,
+        "total_hours": 0.0,
+        "avg_rating": null,
+        "hours_weighted_rating": null
+      }
+    ]
+  },
+  "franchise_preferences": [
+    {
+      "tag": "Cyberpunk",
+      "game_count": 2,
+      "total_hours": 170.0,
+      "avg_rating": 10.0,
+      "hours_weighted_rating": 10.0
+    },
+    {
+      "tag": "Shin Megami Tensei",
+      "game_count": 2,
+      "total_hours": 80.0,
+      "avg_rating": 10.0,
+      "hours_weighted_rating": 10.0
+    },
+    {
+      "tag": "Doom",
+      "game_count": 3,
+      "total_hours": 20.0,
+      "avg_rating": 9.5,
+      "hours_weighted_rating": 9.5
+    },
+    {
+      "tag": "Fire Emblem",
+      "game_count": 7,
+      "total_hours": 100.0,
+      "avg_rating": 9.0,
+      "hours_weighted_rating": 9.0
+    },
+    {
+      "tag": "Xenoblade",
+      "game_count": 3,
+      "total_hours": 100.0,
+      "avg_rating": 9.0,
+      "hours_weighted_rating": 9.0
+    },
+    {
+      "tag": "Kid Icarus",
+      "game_count": 2,
+      "total_hours": 100.0,
+      "avg_rating": 9.0,
+      "hours_weighted_rating": 9.0
+    },
+    {
+      "tag": "Sid Meier",
+      "game_count": 2,
+      "total_hours": 419.0,
+      "avg_rating": 7.5,
+      "hours_weighted_rating": 8.964200477326969
+    },
+    {
+      "tag": "Pok\u00e9mon",
+      "game_count": 6,
+      "total_hours": 164.0,
+      "avg_rating": 7.5,
+      "hours_weighted_rating": 8.926829268292684
+    },
+    {
+      "tag": "Castlevania",
+      "game_count": 3,
+      "total_hours": 103.0,
+      "avg_rating": 7.5,
+      "hours_weighted_rating": 8.912621359223301
+    },
+    {
+      "tag": "Pikmin",
+      "game_count": 2,
+      "total_hours": 110.0,
+      "avg_rating": 8.5,
+      "hours_weighted_rating": 8.909090909090908
+    },
+    {
+      "tag": "Street Fighter",
+      "game_count": 2,
+      "total_hours": 105.0,
+      "avg_rating": 7.5,
+      "hours_weighted_rating": 8.857142857142858
+    },
+    {
+      "tag": "Mega Man",
+      "game_count": 2,
+      "total_hours": 105.0,
+      "avg_rating": 7.5,
+      "hours_weighted_rating": 8.857142857142858
+    },
+    {
+      "tag": "Metroid",
+      "game_count": 4,
+      "total_hours": 105.0,
+      "avg_rating": 7.5,
+      "hours_weighted_rating": 8.857142857142858
+    },
+    {
+      "tag": "Persona",
+      "game_count": 12,
+      "total_hours": 711.0,
+      "avg_rating": 7.818181818181818,
+      "hours_weighted_rating": 8.845070422535212
+    },
+    {
+      "tag": "Pac-Man",
+      "game_count": 3,
+      "total_hours": 107.0,
+      "avg_rating": 7.333333333333333,
+      "hours_weighted_rating": 8.822429906542055
+    },
+    {
+      "tag": "Megami Tensei",
+      "game_count": 15,
+      "total_hours": 711.0,
+      "avg_rating": 7.7272727272727275,
+      "hours_weighted_rating": 8.809859154929578
+    },
+    {
+      "tag": "Kirby",
+      "game_count": 2,
+      "total_hours": 105.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 8.80952380952381
+    },
+    {
+      "tag": "Sonic The Hedgehog",
+      "game_count": 2,
+      "total_hours": 106.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 8.773584905660377
+    },
+    {
+      "tag": "Animal Crossing",
+      "game_count": 4,
+      "total_hours": 231.41666666666669,
+      "avg_rating": 8.666666666666666,
+      "hours_weighted_rating": 8.73913043478261
+    },
+    {
+      "tag": "Splatoon",
+      "game_count": 2,
+      "total_hours": 160.0,
+      "avg_rating": 8.5,
+      "hours_weighted_rating": 8.625
+    },
+    {
+      "tag": "F-Zero",
+      "game_count": 3,
+      "total_hours": 160.0,
+      "avg_rating": 8.5,
+      "hours_weighted_rating": 8.625
+    },
+    {
+      "tag": "Yoshi",
+      "game_count": 2,
+      "total_hours": 160.0,
+      "avg_rating": 8.5,
+      "hours_weighted_rating": 8.625
+    },
+    {
+      "tag": "Wario",
+      "game_count": 4,
+      "total_hours": 162.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 8.604938271604938
+    },
+    {
+      "tag": "Donkey Kong",
+      "game_count": 4,
+      "total_hours": 165.0,
+      "avg_rating": 7.666666666666667,
+      "hours_weighted_rating": 8.545454545454545
+    },
+    {
+      "tag": "Final Fantasy",
+      "game_count": 15,
+      "total_hours": 383.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 8.339425587467362
+    },
+    {
+      "tag": "Metal Gear Solid",
+      "game_count": 4,
+      "total_hours": 130.0,
+      "avg_rating": 7.666666666666667,
+      "hours_weighted_rating": 8.305343511450381
+    },
+    {
+      "tag": "Disney",
+      "game_count": 6,
+      "total_hours": 395.0,
+      "avg_rating": 7.833333333333333,
+      "hours_weighted_rating": 8.126582278481013
+    },
+    {
+      "tag": "The Legend of Zelda",
+      "game_count": 11,
+      "total_hours": 210.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 8.071428571428571
+    },
+    {
+      "tag": "Grand Theft Auto",
+      "game_count": 4,
+      "total_hours": 303.0,
+      "avg_rating": 8.333333333333334,
+      "hours_weighted_rating": 8.05940594059406
+    },
+    {
+      "tag": "Mario",
+      "game_count": 18,
+      "total_hours": 253.75,
+      "avg_rating": 7.454545454545454,
+      "hours_weighted_rating": 8.056157635467981
+    },
+    {
+      "tag": "Dark Souls",
+      "game_count": 3,
+      "total_hours": 155.0,
+      "avg_rating": 7.666666666666667,
+      "hours_weighted_rating": 8.03225806451613
+    },
+    {
+      "tag": "Monster Hunter",
+      "game_count": 3,
+      "total_hours": 25.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 8.0
+    },
+    {
+      "tag": "Dying Light",
+      "game_count": 2,
+      "total_hours": 104.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 8.0
+    },
+    {
+      "tag": "Spider-Man",
+      "game_count": 2,
+      "total_hours": 50.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 8.0
+    },
+    {
+      "tag": "Battlefield",
+      "game_count": 2,
+      "total_hours": 60.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 8.0
+    },
+    {
+      "tag": "Portal",
+      "game_count": 2,
+      "total_hours": 20.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 8.0
+    },
+    {
+      "tag": "Kingdom Hearts",
+      "game_count": 8,
+      "total_hours": 420.0,
+      "avg_rating": 7.375,
+      "hours_weighted_rating": 7.964285714285714
+    },
+    {
+      "tag": "Mario Bros.",
+      "game_count": 8,
+      "total_hours": 19.0,
+      "avg_rating": 7.25,
+      "hours_weighted_rating": 7.894736842105263
+    },
+    {
+      "tag": "Marvel",
+      "game_count": 4,
+      "total_hours": 55.0,
+      "avg_rating": 7.333333333333333,
+      "hours_weighted_rating": 7.818181818181818
+    },
+    {
+      "tag": "Yakuza: Like a Dragon",
+      "game_count": 3,
+      "total_hours": 90.0,
+      "avg_rating": 8.0,
+      "hours_weighted_rating": 7.777777777777778
+    },
+    {
+      "tag": "Batman",
+      "game_count": 5,
+      "total_hours": 59.0,
+      "avg_rating": 7.2,
+      "hours_weighted_rating": 7.576271186440678
+    },
+    {
+      "tag": "The Sims",
+      "game_count": 2,
+      "total_hours": 65.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 7.538461538461538
+    },
+    {
+      "tag": "The Elder Scrolls",
+      "game_count": 3,
+      "total_hours": 135.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 7.481481481481482
+    },
+    {
+      "tag": "DC Comics",
+      "game_count": 4,
+      "total_hours": 47.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 7.468085106382978
+    },
+    {
+      "tag": "God of War",
+      "game_count": 7,
+      "total_hours": 47.0,
+      "avg_rating": 6.666666666666667,
+      "hours_weighted_rating": 7.276595744680851
+    },
+    {
+      "tag": "Tom Clancy\u2019s",
+      "game_count": 8,
+      "total_hours": 75.0,
+      "avg_rating": 6.6,
+      "hours_weighted_rating": 7.2
+    },
+    {
+      "tag": "Watch_Dogs",
+      "game_count": 2,
+      "total_hours": 70.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 7.0
+    },
+    {
+      "tag": "Bioshock",
+      "game_count": 3,
+      "total_hours": 15.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 7.0
+    },
+    {
+      "tag": "WWE",
+      "game_count": 3,
+      "total_hours": 185.0,
+      "avg_rating": 6.0,
+      "hours_weighted_rating": 6.783783783783784
+    },
+    {
+      "tag": "Overwatch",
+      "game_count": 2,
+      "total_hours": 900.0,
+      "avg_rating": 7.0,
+      "hours_weighted_rating": 6.333333333333333
+    },
+    {
+      "tag": "Call of Duty",
+      "game_count": 9,
+      "total_hours": 235.0,
+      "avg_rating": 6.0,
+      "hours_weighted_rating": 6.0
+    },
+    {
+      "tag": "Devil May Cry",
+      "game_count": 2,
+      "total_hours": 7.0,
+      "avg_rating": 6.0,
+      "hours_weighted_rating": 6.0
+    },
+    {
+      "tag": "Borderlands",
+      "game_count": 2,
+      "total_hours": 40.0,
+      "avg_rating": 6.0,
+      "hours_weighted_rating": 6.0
+    },
+    {
+      "tag": "FIFA",
+      "game_count": 10,
+      "total_hours": 810.0,
+      "avg_rating": 5.0,
+      "hours_weighted_rating": 5.098765432098766
+    },
+    {
+      "tag": "Fallout",
+      "game_count": 2,
+      "total_hours": 30.0,
+      "avg_rating": 5.0,
+      "hours_weighted_rating": 5.0
+    },
+    {
+      "tag": "LEGO",
+      "game_count": 2,
+      "total_hours": 5.0,
+      "avg_rating": 5.0,
+      "hours_weighted_rating": 5.0
+    },
+    {
+      "tag": "Metal Gear",
+      "game_count": 3,
+      "total_hours": 5.0,
+      "avg_rating": 6.0,
+      "hours_weighted_rating": 4.666666666666667
+    },
+    {
+      "tag": "NBA",
+      "game_count": 6,
+      "total_hours": 109.0,
+      "avg_rating": 4.0,
+      "hours_weighted_rating": 4.5963302752293576
+    },
+    {
+      "tag": "The Witcher",
+      "game_count": 3,
+      "total_hours": 0.0,
+      "avg_rating": null,
+      "hours_weighted_rating": null
+    },
+    {
+      "tag": "Far Cry",
+      "game_count": 2,
+      "total_hours": 0.0,
+      "avg_rating": null,
+      "hours_weighted_rating": null
+    },
+    {
+      "tag": "Xeno",
+      "game_count": 3,
+      "total_hours": 0.0,
+      "avg_rating": null,
+      "hours_weighted_rating": null
+    },
+    {
+      "tag": "Jak and Daxter",
+      "game_count": 3,
+      "total_hours": 0.0,
+      "avg_rating": null,
+      "hours_weighted_rating": null
+    },
+    {
+      "tag": "Chrono",
+      "game_count": 2,
+      "total_hours": 0.0,
+      "avg_rating": null,
+      "hours_weighted_rating": null
+    }
+  ],
+  "replay_analysis": {
+    "genres": [
+      {
+        "tag": "Adventure",
+        "total_replays": 9,
+        "games_with_replay": 9,
+        "games_total": 219
+      },
+      {
+        "tag": "Role-playing (RPG)",
+        "total_replays": 8,
+        "games_with_replay": 5,
+        "games_total": 144
+      },
+      {
+        "tag": "Strategy",
+        "total_replays": 7,
+        "games_with_replay": 4,
+        "games_total": 60
+      },
+      {
+        "tag": "Turn-based strategy (TBS)",
+        "total_replays": 5,
+        "games_with_replay": 2,
+        "games_total": 29
+      },
+      {
+        "tag": "Simulator",
+        "total_replays": 4,
+        "games_with_replay": 4,
+        "games_total": 77
+      },
+      {
+        "tag": "Shooter",
+        "total_replays": 3,
+        "games_with_replay": 3,
+        "games_total": 111
+      },
+      {
+        "tag": "Indie",
+        "total_replays": 2,
+        "games_with_replay": 2,
+        "games_total": 71
+      },
+      {
+        "tag": "Platform",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 50
+      },
+      {
+        "tag": "Tactical",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 37
+      },
+      {
+        "tag": "Real Time Strategy (RTS)",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 6
+      }
+    ],
+    "themes": [
+      {
+        "tag": "Action",
+        "total_replays": 11,
+        "games_with_replay": 8,
+        "games_total": 309
+      },
+      {
+        "tag": "Fantasy",
+        "total_replays": 11,
+        "games_with_replay": 8,
+        "games_total": 156
+      },
+      {
+        "tag": "Science fiction",
+        "total_replays": 5,
+        "games_with_replay": 5,
+        "games_total": 93
+      },
+      {
+        "tag": "Open world",
+        "total_replays": 4,
+        "games_with_replay": 4,
+        "games_total": 91
+      },
+      {
+        "tag": "Sandbox",
+        "total_replays": 3,
+        "games_with_replay": 3,
+        "games_total": 50
+      },
+      {
+        "tag": "Survival",
+        "total_replays": 2,
+        "games_with_replay": 2,
+        "games_total": 25
+      },
+      {
+        "tag": "Historical",
+        "total_replays": 2,
+        "games_with_replay": 2,
+        "games_total": 25
+      },
+      {
+        "tag": "4X (explore, expand, exploit, and exterminate)",
+        "total_replays": 2,
+        "games_with_replay": 2,
+        "games_total": 7
+      },
+      {
+        "tag": "Comedy",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 58
+      },
+      {
+        "tag": "Kids",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 20
+      },
+      {
+        "tag": "Drama",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 28
+      },
+      {
+        "tag": "Mystery",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 12
+      },
+      {
+        "tag": "Stealth",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 38
+      }
+    ],
+    "developers": [
+      {
+        "tag": "Larian Studios",
+        "total_replays": 4,
+        "games_with_replay": 1,
+        "games_total": 3
+      },
+      {
+        "tag": "FromSoftware",
+        "total_replays": 3,
+        "games_with_replay": 3,
+        "games_total": 7
+      },
+      {
+        "tag": "Respawn Entertainment",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 3
+      },
+      {
+        "tag": "CD Projekt RED",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 5
+      },
+      {
+        "tag": "P Studio",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 10
+      },
+      {
+        "tag": "Firaxis Games",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 4
+      },
+      {
+        "tag": "Virtuos",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 3
+      },
+      {
+        "tag": "Hopoo Games",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "Motion Twin",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "Evil Empire",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "Paradox Development Studio",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 4
+      },
+      {
+        "tag": "Coffee Stain Studios",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "QLOC",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "Mojang Studios",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      }
+    ],
+    "publishers": [
+      {
+        "tag": "Larian Studios",
+        "total_replays": 4,
+        "games_with_replay": 1,
+        "games_total": 2
+      },
+      {
+        "tag": "Bandai Namco Entertainment",
+        "total_replays": 2,
+        "games_with_replay": 2,
+        "games_total": 10
+      },
+      {
+        "tag": "Paradox Interactive",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 8
+      },
+      {
+        "tag": "Electronic Arts",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 18
+      },
+      {
+        "tag": "Activision",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 11
+      },
+      {
+        "tag": "Deep Silver",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 5
+      },
+      {
+        "tag": "2K Games",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 13
+      },
+      {
+        "tag": "Atlus",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 16
+      },
+      {
+        "tag": "CD Projekt",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 2
+      },
+      {
+        "tag": "Aspyr Media",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 3
+      },
+      {
+        "tag": "Gearbox Publishing",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "Playdigious",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "Motion Twin",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "Atlus USA",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 6
+      },
+      {
+        "tag": "Coffee Stain Publishing",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "FromSoftware",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 2
+      },
+      {
+        "tag": "Mojang Studios",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      },
+      {
+        "tag": "DMM GAMES",
+        "total_replays": 1,
+        "games_with_replay": 1,
+        "games_total": 1
+      }
+    ]
+  },
+  "completion_analysis": {
+    "genres": [
+      {
+        "tag": "Visual Novel",
+        "games_logged": 4,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Hack and slash/Beat 'em up",
+        "games_logged": 42,
+        "completion_rate": 0.7619047619047619,
+        "positive_rate": 0.7619047619047619
+      },
+      {
+        "tag": "Platform",
+        "games_logged": 50,
+        "completion_rate": 0.68,
+        "positive_rate": 0.68
+      },
+      {
+        "tag": "Adventure",
+        "games_logged": 219,
+        "completion_rate": 0.6529680365296804,
+        "positive_rate": 0.6529680365296804
+      },
+      {
+        "tag": "Role-playing (RPG)",
+        "games_logged": 144,
+        "completion_rate": 0.6388888888888888,
+        "positive_rate": 0.6388888888888888
+      },
+      {
+        "tag": "Puzzle",
+        "games_logged": 35,
+        "completion_rate": 0.6285714285714286,
+        "positive_rate": 0.6285714285714286
+      },
+      {
+        "tag": "Turn-based strategy (TBS)",
+        "games_logged": 29,
+        "completion_rate": 0.5517241379310345,
+        "positive_rate": 0.5517241379310345
+      },
+      {
+        "tag": "Shooter",
+        "games_logged": 111,
+        "completion_rate": 0.5045045045045045,
+        "positive_rate": 0.5045045045045045
+      },
+      {
+        "tag": "Music",
+        "games_logged": 12,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Tactical",
+        "games_logged": 37,
+        "completion_rate": 0.4864864864864865,
+        "positive_rate": 0.4864864864864865
+      },
+      {
+        "tag": "Point-and-click",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Real Time Strategy (RTS)",
+        "games_logged": 6,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Strategy",
+        "games_logged": 60,
+        "completion_rate": 0.3,
+        "positive_rate": 0.3
+      },
+      {
+        "tag": "Indie",
+        "games_logged": 71,
+        "completion_rate": 0.29577464788732394,
+        "positive_rate": 0.29577464788732394
+      },
+      {
+        "tag": "Racing",
+        "games_logged": 25,
+        "completion_rate": 0.24,
+        "positive_rate": 0.24
+      },
+      {
+        "tag": "Arcade",
+        "games_logged": 26,
+        "completion_rate": 0.23076923076923078,
+        "positive_rate": 0.23076923076923078
+      },
+      {
+        "tag": "Simulator",
+        "games_logged": 77,
+        "completion_rate": 0.18181818181818182,
+        "positive_rate": 0.18181818181818182
+      },
+      {
+        "tag": "Fighting",
+        "games_logged": 11,
+        "completion_rate": 0.18181818181818182,
+        "positive_rate": 0.18181818181818182
+      },
+      {
+        "tag": "Sport",
+        "games_logged": 37,
+        "completion_rate": 0.02702702702702703,
+        "positive_rate": 0.02702702702702703
+      },
+      {
+        "tag": "Card & Board Game",
+        "games_logged": 8,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "MOBA",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      }
+    ],
+    "themes": [
+      {
+        "tag": "Drama",
+        "games_logged": 28,
+        "completion_rate": 0.7857142857142857,
+        "positive_rate": 0.7857142857142857
+      },
+      {
+        "tag": "Mystery",
+        "games_logged": 12,
+        "completion_rate": 0.75,
+        "positive_rate": 0.75
+      },
+      {
+        "tag": "Thriller",
+        "games_logged": 10,
+        "completion_rate": 0.7,
+        "positive_rate": 0.7
+      },
+      {
+        "tag": "Stealth",
+        "games_logged": 38,
+        "completion_rate": 0.6578947368421053,
+        "positive_rate": 0.6578947368421053
+      },
+      {
+        "tag": "Fantasy",
+        "games_logged": 156,
+        "completion_rate": 0.6410256410256411,
+        "positive_rate": 0.6410256410256411
+      },
+      {
+        "tag": "Open world",
+        "games_logged": 91,
+        "completion_rate": 0.6043956043956044,
+        "positive_rate": 0.6043956043956044
+      },
+      {
+        "tag": "Kids",
+        "games_logged": 20,
+        "completion_rate": 0.6,
+        "positive_rate": 0.6
+      },
+      {
+        "tag": "Horror",
+        "games_logged": 37,
+        "completion_rate": 0.5945945945945946,
+        "positive_rate": 0.5945945945945946
+      },
+      {
+        "tag": "Science fiction",
+        "games_logged": 93,
+        "completion_rate": 0.5591397849462365,
+        "positive_rate": 0.5591397849462365
+      },
+      {
+        "tag": "Action",
+        "games_logged": 309,
+        "completion_rate": 0.5436893203883495,
+        "positive_rate": 0.5436893203883495
+      },
+      {
+        "tag": "Warfare",
+        "games_logged": 30,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Romance",
+        "games_logged": 4,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Sandbox",
+        "games_logged": 50,
+        "completion_rate": 0.46,
+        "positive_rate": 0.46
+      },
+      {
+        "tag": "Comedy",
+        "games_logged": 58,
+        "completion_rate": 0.4482758620689655,
+        "positive_rate": 0.4482758620689655
+      },
+      {
+        "tag": "Historical",
+        "games_logged": 25,
+        "completion_rate": 0.44,
+        "positive_rate": 0.44
+      },
+      {
+        "tag": "Survival",
+        "games_logged": 25,
+        "completion_rate": 0.4,
+        "positive_rate": 0.4
+      },
+      {
+        "tag": "Business",
+        "games_logged": 15,
+        "completion_rate": 0.2,
+        "positive_rate": 0.2
+      },
+      {
+        "tag": "Party",
+        "games_logged": 19,
+        "completion_rate": 0.15789473684210525,
+        "positive_rate": 0.15789473684210525
+      },
+      {
+        "tag": "4X (explore, expand, exploit, and exterminate)",
+        "games_logged": 7,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Non-fiction",
+        "games_logged": 23,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Educational",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      }
+    ],
+    "developers": [
+      {
+        "tag": "Team Cherry",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Ryu Ga Gotoku Studio",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Bigbig Studios",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square Enix Creative Business Unit I",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "P Studio",
+        "games_logged": 10,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "PlatinumGames",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square Enix Business Division 6",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Atlus",
+        "games_logged": 8,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "FromSoftware",
+        "games_logged": 7,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Kojima Productions",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Rocksteady Studios",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square Enix 1st Production Department",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Insomniac Games",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Nintendo R&D1",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Arkane Studios",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Infinity Ward",
+        "games_logged": 4,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Nintendo EPD Production Group No. 3",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Rare",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Nintendo R&D4",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Nintendo SPD Production Group No. 2",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Intelligent Systems",
+        "games_logged": 7,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Nintendo EAD Software Development Group No.3",
+        "games_logged": 4,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square Product Development Division 4",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Naughty Dog",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Ready At Dawn",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Nintendo SPD",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "AlphaDream",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square Enix Business Division 3",
+        "games_logged": 6,
+        "completion_rate": 0.8333333333333334,
+        "positive_rate": 0.8333333333333334
+      },
+      {
+        "tag": "Konami",
+        "games_logged": 5,
+        "completion_rate": 0.8,
+        "positive_rate": 0.8
+      },
+      {
+        "tag": "SCE Santa Monica Studio",
+        "games_logged": 4,
+        "completion_rate": 0.75,
+        "positive_rate": 0.75
+      },
+      {
+        "tag": "Next Level Games",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "Game Freak",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "Respawn Entertainment",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "Sledgehammer Games",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "Techland",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "EA Digital Illusions CE",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "Monolith Soft",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "CD Projekt RED",
+        "games_logged": 5,
+        "completion_rate": 0.6,
+        "positive_rate": 0.6
+      },
+      {
+        "tag": "Nintendo Entertainment Analysis & Development",
+        "games_logged": 7,
+        "completion_rate": 0.5714285714285714,
+        "positive_rate": 0.5714285714285714
+      },
+      {
+        "tag": "TNX",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Rockstar Games",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Dimps",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Rockstar North",
+        "games_logged": 4,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Capcom",
+        "games_logged": 4,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "BioWare",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Saber Interactive",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Firaxis Games",
+        "games_logged": 4,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Bandai Namco Studios",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Bethesda Game Studios",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Sora",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Nintendo EPD Production Group No. 8",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Studio MDHR",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Ghost Town Games",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Brace Yourself Games",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Gearbox Software",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "2K Australia",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Feral Interactive",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Nintendo",
+        "games_logged": 5,
+        "completion_rate": 0.4,
+        "positive_rate": 0.4
+      },
+      {
+        "tag": "Ubisoft Montreal",
+        "games_logged": 10,
+        "completion_rate": 0.4,
+        "positive_rate": 0.4
+      },
+      {
+        "tag": "Valve",
+        "games_logged": 5,
+        "completion_rate": 0.4,
+        "positive_rate": 0.4
+      },
+      {
+        "tag": "id Software",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Virtuos",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Larian Studios",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Nintendo Entertainment Planning & Development",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Ubisoft Shanghai",
+        "games_logged": 4,
+        "completion_rate": 0.25,
+        "positive_rate": 0.25
+      },
+      {
+        "tag": "Poncle",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Nintendo EPD Production Group No. 4",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Square Enix Creative Business Unit III",
+        "games_logged": 4,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Maxis",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Visual Concepts",
+        "games_logged": 8,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Lucid Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Digital Extremes",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "EA Vancouver",
+        "games_logged": 9,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Criterion Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Yuke's",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Capcom Production Studio 1",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "1047 Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Blizzard Entertainment",
+        "games_logged": 4,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Treyarch",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Paradox Development Studio",
+        "games_logged": 4,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "EA Romania",
+        "games_logged": 5,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "The Sims Studio",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Arika",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Sports Interactive",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Riot Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "EA Canada",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "SCS Software",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Nicalis, Inc.",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Edmund McMillen",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      }
+    ],
+    "publishers": [
+      {
+        "tag": "Team Cherry",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Sega Games",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Atlus",
+        "games_logged": 16,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Atlus USA",
+        "games_logged": 6,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Warner Bros. Interactive Entertainment",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Playtronic",
+        "games_logged": 5,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "FromSoftware",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Hyundai",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Spike Chunsoft",
+        "games_logged": 2,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square Electronic Arts",
+        "games_logged": 3,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Square",
+        "games_logged": 6,
+        "completion_rate": 1.0,
+        "positive_rate": 1.0
+      },
+      {
+        "tag": "Gradiente",
+        "games_logged": 9,
+        "completion_rate": 0.8888888888888888,
+        "positive_rate": 0.8888888888888888
+      },
+      {
+        "tag": "Sony Computer Entertainment",
+        "games_logged": 20,
+        "completion_rate": 0.85,
+        "positive_rate": 0.85
+      },
+      {
+        "tag": "Sega",
+        "games_logged": 15,
+        "completion_rate": 0.8,
+        "positive_rate": 0.8
+      },
+      {
+        "tag": "Deep Silver",
+        "games_logged": 5,
+        "completion_rate": 0.8,
+        "positive_rate": 0.8
+      },
+      {
+        "tag": "Bandai Namco Entertainment",
+        "games_logged": 10,
+        "completion_rate": 0.8,
+        "positive_rate": 0.8
+      },
+      {
+        "tag": "WB Games",
+        "games_logged": 9,
+        "completion_rate": 0.7777777777777778,
+        "positive_rate": 0.7777777777777778
+      },
+      {
+        "tag": "Sony Interactive Entertainment",
+        "games_logged": 13,
+        "completion_rate": 0.7692307692307693,
+        "positive_rate": 0.7692307692307693
+      },
+      {
+        "tag": "Square Enix",
+        "games_logged": 30,
+        "completion_rate": 0.7333333333333333,
+        "positive_rate": 0.7333333333333333
+      },
+      {
+        "tag": "Capcom",
+        "games_logged": 10,
+        "completion_rate": 0.7,
+        "positive_rate": 0.7
+      },
+      {
+        "tag": "Nintendo",
+        "games_logged": 65,
+        "completion_rate": 0.6923076923076923,
+        "positive_rate": 0.6923076923076923
+      },
+      {
+        "tag": "NIS America",
+        "games_logged": 3,
+        "completion_rate": 0.6666666666666666,
+        "positive_rate": 0.6666666666666666
+      },
+      {
+        "tag": "Activision",
+        "games_logged": 11,
+        "completion_rate": 0.6363636363636364,
+        "positive_rate": 0.6363636363636364
+      },
+      {
+        "tag": "Feral Interactive",
+        "games_logged": 5,
+        "completion_rate": 0.6,
+        "positive_rate": 0.6
+      },
+      {
+        "tag": "Bethesda Softworks",
+        "games_logged": 12,
+        "completion_rate": 0.5833333333333334,
+        "positive_rate": 0.5833333333333334
+      },
+      {
+        "tag": "iQue",
+        "games_logged": 7,
+        "completion_rate": 0.5714285714285714,
+        "positive_rate": 0.5714285714285714
+      },
+      {
+        "tag": "Konami",
+        "games_logged": 7,
+        "completion_rate": 0.5714285714285714,
+        "positive_rate": 0.5714285714285714
+      },
+      {
+        "tag": "Take-Two Interactive",
+        "games_logged": 6,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Rockstar Games",
+        "games_logged": 6,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Netflix",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "CD Projekt RED",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Techland",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "CD Projekt",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Private Division",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Larian Studios",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "THQ",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Studio MDHR",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Brace Yourself Games",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "Klei Entertainment",
+        "games_logged": 2,
+        "completion_rate": 0.5,
+        "positive_rate": 0.5
+      },
+      {
+        "tag": "505 Games",
+        "games_logged": 7,
+        "completion_rate": 0.42857142857142855,
+        "positive_rate": 0.42857142857142855
+      },
+      {
+        "tag": "Valve",
+        "games_logged": 5,
+        "completion_rate": 0.4,
+        "positive_rate": 0.4
+      },
+      {
+        "tag": "Electronic Arts",
+        "games_logged": 18,
+        "completion_rate": 0.3888888888888889,
+        "positive_rate": 0.3888888888888889
+      },
+      {
+        "tag": "Ubisoft Entertainment",
+        "games_logged": 18,
+        "completion_rate": 0.3888888888888889,
+        "positive_rate": 0.3888888888888889
+      },
+      {
+        "tag": "The Pok\u00e9mon Company",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Devolver Digital",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "Team17",
+        "games_logged": 3,
+        "completion_rate": 0.3333333333333333,
+        "positive_rate": 0.3333333333333333
+      },
+      {
+        "tag": "2K Games",
+        "games_logged": 13,
+        "completion_rate": 0.23076923076923078,
+        "positive_rate": 0.23076923076923078
+      },
+      {
+        "tag": "2K",
+        "games_logged": 7,
+        "completion_rate": 0.14285714285714285,
+        "positive_rate": 0.14285714285714285
+      },
+      {
+        "tag": "Poncle",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Nacon",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "NetEase Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Paradox Interactive",
+        "games_logged": 8,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Digital Extremes",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "2K Sports",
+        "games_logged": 5,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "EA Sports",
+        "games_logged": 12,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Aspyr Media",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "1047 Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Blizzard Entertainment",
+        "games_logged": 4,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Gaijin Entertainment",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Curve Digital",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Microsoft Studios",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Riot Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Epic Games",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "SCS Software",
+        "games_logged": 2,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      },
+      {
+        "tag": "Nicalis, Inc.",
+        "games_logged": 3,
+        "completion_rate": 0.0,
+        "positive_rate": 0.0
+      }
+    ]
+  },
+  "taste_drift": {
+    "vocabulary": [
+      "Adventure",
+      "Arcade",
+      "Card & Board Game",
+      "Fighting",
+      "Hack and slash/Beat 'em up",
+      "Indie",
+      "Music",
+      "Platform",
+      "Puzzle",
+      "Racing",
+      "Real Time Strategy (RTS)",
+      "Role-playing (RPG)",
+      "Shooter",
+      "Simulator",
+      "Sport",
+      "Strategy",
+      "Tactical",
+      "Turn-based strategy (TBS)"
+    ],
+    "top_genres_by_year": {
+      "2024": [
+        [
+          "Role-playing (RPG)",
+          285.0
+        ],
+        [
+          "Adventure",
+          231.0
+        ],
+        [
+          "Strategy",
+          108.0
+        ],
+        [
+          "Turn-based strategy (TBS)",
+          83.0
+        ],
+        [
+          "Simulator",
+          68.0
+        ]
+      ],
+      "2019": [
+        [
+          "Shooter",
+          95.0
+        ],
+        [
+          "Tactical",
+          80.0
+        ],
+        [
+          "Adventure",
+          47.0
+        ],
+        [
+          "Racing",
+          40.0
+        ],
+        [
+          "Simulator",
+          40.0
+        ]
+      ],
+      "2020": [
+        [
+          "Simulator",
+          80.0
+        ],
+        [
+          "Strategy",
+          70.0
+        ],
+        [
+          "Indie",
+          70.0
+        ],
+        [
+          "Adventure",
+          70.0
+        ],
+        [
+          "Role-playing (RPG)",
+          50.0
+        ]
+      ],
+      "2021": [
+        [
+          "Adventure",
+          517.0
+        ],
+        [
+          "Role-playing (RPG)",
+          500.0
+        ],
+        [
+          "Shooter",
+          155.0
+        ],
+        [
+          "Hack and slash/Beat 'em up",
+          137.0
+        ],
+        [
+          "Visual Novel",
+          120.0
+        ]
+      ],
+      "2022": [
+        [
+          "Simulator",
+          130.0
+        ],
+        [
+          "Adventure",
+          120.0
+        ],
+        [
+          "Strategy",
+          105.0
+        ],
+        [
+          "Real Time Strategy (RTS)",
+          100.0
+        ],
+        [
+          "Role-playing (RPG)",
+          95.0
+        ]
+      ],
+      "2017": [
+        [
+          "Shooter",
+          326.0
+        ],
+        [
+          "Tactical",
+          150.0
+        ],
+        [
+          "Adventure",
+          146.0
+        ],
+        [
+          "Role-playing (RPG)",
+          100.0
+        ],
+        [
+          "Simulator",
+          30.0
+        ]
+      ],
+      "2023": [
+        [
+          "Simulator",
+          60.0
+        ],
+        [
+          "Strategy",
+          45.0
+        ],
+        [
+          "Adventure",
+          35.0
+        ],
+        [
+          "Shooter",
+          30.0
+        ],
+        [
+          "Indie",
+          20.0
+        ]
+      ],
+      "2018": [
+        [
+          "Adventure",
+          275.0
+        ],
+        [
+          "Shooter",
+          275.0
+        ],
+        [
+          "Racing",
+          250.0
+        ],
+        [
+          "Role-playing (RPG)",
+          25.0
+        ],
+        [
+          "Puzzle",
+          10.0
+        ]
+      ],
+      "2026": [
+        [
+          "Role-playing (RPG)",
+          191.0
+        ],
+        [
+          "Simulator",
+          185.73333333333332
+        ],
+        [
+          "Strategy",
+          183.0
+        ],
+        [
+          "Adventure",
+          141.0
+        ],
+        [
+          "Turn-based strategy (TBS)",
+          139.0
+        ]
+      ],
+      "2025": [
+        [
+          "Adventure",
+          458.0
+        ],
+        [
+          "Role-playing (RPG)",
+          457.0
+        ],
+        [
+          "Shooter",
+          193.0
+        ],
+        [
+          "Indie",
+          154.0
+        ],
+        [
+          "Strategy",
+          132.0
+        ]
+      ],
+      "2016": [
+        [
+          "Shooter",
+          20.0
+        ],
+        [
+          "Tactical",
+          20.0
+        ],
+        [
+          "Adventure",
+          20.0
+        ]
+      ],
+      "2015": [
+        [
+          "Shooter",
+          20.0
+        ],
+        [
+          "Tactical",
+          20.0
+        ]
+      ]
+    },
+    "similarity_matrix": {
+      "2015": {
+        "2015": 0.9999999999999999,
+        "2016": 0.8164965809277259,
+        "2017": 0.8358650312962896,
+        "2018": 0.4198840308591838,
+        "2019": 0.8194586751523342,
+        "2020": 0.0,
+        "2021": 0.14477347296211804,
+        "2022": 0.0,
+        "2023": 0.23042861179277058,
+        "2024": 0.16034153658848885,
+        "2025": 0.2223775450344411,
+        "2026": 0.15171138720953495
+      },
+      "2016": {
+        "2015": 0.8164965809277259,
+        "2016": 0.9999999999999998,
+        "2017": 0.8918133293824173,
+        "2018": 0.6856677511653506,
+        "2019": 0.8487823762120275,
+        "2020": 0.2581988897471611,
+        "2021": 0.5124847399916679,
+        "2022": 0.27608100714995243,
+        "2023": 0.40764570963289215,
+        "2024": 0.45963713259651395,
+        "2025": 0.5463042393169547,
+        "2026": 0.3246296206818435
+      },
+      "2017": {
+        "2015": 0.8358650312962896,
+        "2016": 0.8918133293824173,
+        "2017": 1.0,
+        "2018": 0.7094400594057821,
+        "2019": 0.8639172462119694,
+        "2020": 0.31287298835159927,
+        "2021": 0.5885291546327106,
+        "2022": 0.33715705161510046,
+        "2023": 0.5136192501539327,
+        "2024": 0.5564292634877,
+        "2025": 0.6409461852904046,
+        "2026": 0.48547512777634744
+      },
+      "2018": {
+        "2015": 0.4198840308591838,
+        "2016": 0.6856677511653506,
+        "2017": 0.7094400594057821,
+        "2018": 1.0,
+        "2019": 0.7067443514006556,
+        "2020": 0.2828020026833524,
+        "2021": 0.563457271918397,
+        "2022": 0.3151412164227733,
+        "2023": 0.5130856518286682,
+        "2024": 0.4550414809950605,
+        "2025": 0.5712567528062772,
+        "2026": 0.38886347429889323
+      },
+      "2019": {
+        "2015": 0.8194586751523342,
+        "2016": 0.8487823762120275,
+        "2017": 0.8639172462119694,
+        "2018": 0.7067443514006556,
+        "2019": 1.0,
+        "2020": 0.4247708220918964,
+        "2021": 0.4318389708696265,
+        "2022": 0.34213100994595186,
+        "2023": 0.6074825493684118,
+        "2024": 0.44334208863802993,
+        "2025": 0.5343563254935726,
+        "2026": 0.44881931017514914
+      },
+      "2020": {
+        "2015": 0.0,
+        "2016": 0.2581988897471611,
+        "2017": 0.31287298835159927,
+        "2018": 0.2828020026833524,
+        "2019": 0.4247708220918964,
+        "2020": 1.0000000000000002,
+        "2021": 0.5543556932901591,
+        "2022": 0.8184908843834374,
+        "2023": 0.8535956944220431,
+        "2024": 0.7002567421875237,
+        "2025": 0.6934379175663041,
+        "2026": 0.8282825226371089
+      },
+      "2021": {
+        "2015": 0.14477347296211804,
+        "2016": 0.5124847399916679,
+        "2017": 0.5885291546327106,
+        "2018": 0.563457271918397,
+        "2019": 0.4318389708696265,
+        "2020": 0.5543556932901591,
+        "2021": 0.9999999999999998,
+        "2022": 0.6323766593135777,
+        "2023": 0.4432927602492679,
+        "2024": 0.9192232297845377,
+        "2025": 0.9401229609548786,
+        "2026": 0.6359154874932057
+      },
+      "2022": {
+        "2015": 0.0,
+        "2016": 0.27608100714995243,
+        "2017": 0.33715705161510046,
+        "2018": 0.3151412164227733,
+        "2019": 0.34213100994595186,
+        "2020": 0.8184908843834374,
+        "2021": 0.6323766593135777,
+        "2022": 1.0000000000000002,
+        "2023": 0.7726526152512063,
+        "2024": 0.7579939892588657,
+        "2025": 0.6638409521200923,
+        "2026": 0.816963058386386
+      },
+      "2023": {
+        "2015": 0.23042861179277058,
+        "2016": 0.40764570963289215,
+        "2017": 0.5136192501539327,
+        "2018": 0.5130856518286682,
+        "2019": 0.6074825493684118,
+        "2020": 0.8535956944220431,
+        "2021": 0.4432927602492679,
+        "2022": 0.7726526152512063,
+        "2023": 1.0000000000000002,
+        "2024": 0.5835260269764564,
+        "2025": 0.5739270518416124,
+        "2026": 0.7989322674561207
+      },
+      "2024": {
+        "2015": 0.16034153658848885,
+        "2016": 0.45963713259651395,
+        "2017": 0.5564292634877,
+        "2018": 0.4550414809950605,
+        "2019": 0.44334208863802993,
+        "2020": 0.7002567421875237,
+        "2021": 0.9192232297845377,
+        "2022": 0.7579939892588657,
+        "2023": 0.5835260269764564,
+        "2024": 1.0,
+        "2025": 0.9570746965939159,
+        "2026": 0.8308414611725162
+      },
+      "2025": {
+        "2015": 0.2223775450344411,
+        "2016": 0.5463042393169547,
+        "2017": 0.6409461852904046,
+        "2018": 0.5712567528062772,
+        "2019": 0.5343563254935726,
+        "2020": 0.6934379175663041,
+        "2021": 0.9401229609548786,
+        "2022": 0.6638409521200923,
+        "2023": 0.5739270518416124,
+        "2024": 0.9570746965939159,
+        "2025": 0.9999999999999998,
+        "2026": 0.7690350376540752
+      },
+      "2026": {
+        "2015": 0.15171138720953495,
+        "2016": 0.3246296206818435,
+        "2017": 0.48547512777634744,
+        "2018": 0.38886347429889323,
+        "2019": 0.44881931017514914,
+        "2020": 0.8282825226371089,
+        "2021": 0.6359154874932057,
+        "2022": 0.816963058386386,
+        "2023": 0.7989322674561207,
+        "2024": 0.8308414611725162,
+        "2025": 0.7690350376540752,
+        "2026": 1.0
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+paths:
+  raw_export: data/raw/export.json
+  database: data/processed/glip.db
+
+# Sprint 2 will read IGDB credentials from environment variables
+# (IGDB_CLIENT_ID / IGDB_CLIENT_SECRET), not from this file.
+igdb:
+  base_url: https://api.igdb.com/v4
+
+feature_store:
+  min_tag_occurrences: 5   # per Engineering Risk 3: prune rare genre/theme tags
